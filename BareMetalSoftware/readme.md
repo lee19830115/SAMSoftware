@@ -28,6 +28,12 @@ All three cores are used in the framework and they are responsible for the follo
     - Run a reverb algorithm on the audio
     - Run a 4K FFT every time a new 32-word block of audio arrives using the FFT accelerator.
 
+The audio flows through the cores in a pipelined manner as such:
+
+  ADCs -> SHARC Core 1 -> SHARC Core 2 -> DACs
+
+When SHARC Core 1 is processing the current frame of audio, SHARC Core 2 is processing the previous frame.  This way, both cores can be fully utilized.
+
 Below is a set of approaches that are used within the bare metal frameworks
 
 ### DMA-based Audio I/O Framework ###
@@ -81,3 +87,82 @@ if (!checkSharedMemoryStructureSizes()) {
 ```
 
 Note: It's important that MC-API isn't added to these projects as the MC-API libraries use the same memory region.
+
+### Dual Core Audio Processing ###
+
+Each of the SHARC processors relies on a set of floating point input and output buffers in the shared memory structure.  As mentioned above, the audio flows as follows: ADCs -> SHARC Core 1 -> SHARC Core 2 -> DACs.
+
+When SHARC Core 1 has prepared audio buffers for SHARC Core 2, SHARC Core 1 raises/asserts a system "user" interrupt that Core 2 is listening for.  When this interrupt arrives, SHARC Core 2 processes the audio.
+
+Example of audio processing on SHARC Core 2.  This is the totality of what is required to process audio on SHARC Core 2.
+
+```
+void processAudio(void) {
+  int i;
+  for (i=0;i<AUDIO_BLOCK_SIZE;i++) {
+    // process our audio (gain = 0.5)
+    multiCoreAudioCtrl->Core_2_Audio_Out_L[i] = 0.5 * multiCoreAudioCtrl->Core_2_Audio_In_L[i];
+    multiCoreAudioCtrl->Core_2_Audio_Out_R[i] = 0.5 * multiCoreAudioCtrl->Core_2_Audio_In_R[i];
+  }
+
+  // clear the interrupt
+  *pREG_SEC0_END = INTR_SOFT7;
+}
+
+setup() {
+  // set up the interrupt and set processAudio as callback
+  adi_int_InstallHandler( INTR_SOFT7,
+							(ADI_INT_HANDLER_PTR) processAudio,
+							NULL,
+							true);
+
+```
+
+That's it!
+
+### Audio benchmarking using DMA ###
+A useful trick for assessing how much CPU your audio processing is using is to look at the progress of the DMA running in the background when you've finished processing audio.  If the DMA running in the background is close to completion when you've finished processing your audio, it means you're using most of the processing power available for that core.  On the other hand, if the DMA is only 20% complete, it basically means you're using 20% of the processing power.
+
+Each of the SHARC Cores has a routine defined in Main called `getCPULoad`.  This function reads the current DMA progress and from this, calculates a percentage of CPU load being utilized for processing.  It should be called within the callback right after we finish processing audio.  The bare metal frameworks currently save this to the shared C structure so the ARM can "see" how much CPU both of the SHARC cores are using.
+
+```
+void processAudio( void ) {
+	int i;
+
+	for (i=0;i<AUDIO_BLOCK_SIZE;i++) {
+    // Some amazing audio algoritm here
+  }
+
+  // Calculate CPU load and save in our shared memory structure
+  multiCoreAudioCtrl->sharc_core2_cpuload = getCPULoad();
+}
+```
+
+## Hardware ##
+
+There are essentially three different hardware configurations that these bare metal frameworks support.
+
+1. SAM board
+2. SAM board with DIY daughter board
+3. SAM board with automotive daughter board
+
+Because the DIY daughter board relies on the ADAU1761 on the SAM board, it uses the same bare metal framework.  The automotive framework does not support the ADAU1761 presently.
+
+### Automotive Board ###
+
+## Configuration ##
+
+### Hardware Configuration ###
+
+There are a few modifications that need to be made to the automotive board before it can be used.
+
+1. A jumper needs to be placed J16 (not populated by default) on the left-most position.  This connects the on-board 12.288MHz crystal to ADAU1452.  The other positions can be used to select the MCLK from the A2B bus or an external MCLK from a pin header.
+2. Two jumpers need to be placed on P3 and P4 to connect TWI1 from the SAM board to the TWI/I2C devices on the automotive board.  The SAM board has other components that sit on the TWI0 bus so best to use TWI1 to minimize the loading of the TWI0 bus.  The drivers in the SS framework are set to use TWI1 at the moment.
+3. The ADAU1452 can either boot from an on-board SPI flash or from an external SPI device.  The switch should be set as shown below in the SPI_BOOT mode (unless you have programmed the SPI flash memory and don't want the SAM board to initialize the processor).  Even in SELF-BOOT mode, where the ADAU1452 processor boots from an external flash, the remain converters on the automotive board still need to be initialized (via TWI).
+4. The ADAU1977 and the ADAU1979 sit at the same I2C/TWI address. The good news is that they share a memory map and by initializing one device, the other can be initialized too at the same time.  A simple modification can be made whereby R132 can be lifted and connected to VCC instead of GND.  This will change the I2C address of the ADAU1979 from 0x11 to 0x51.  Note! The SS framework is currently configured to program the ADAU1979 at address 0x51. However, this can be changed back to 0x11 in the Simple_Drivers\adau1979_simple\adau1979_simple.h file (line 42).  Make sure to do this before building your project.
+
+![](https://github.com/dledge/ADI002-SAM-Framework/blob/master/Documentation/Automotive%20diagram.PNG)
+
+The image below shows how the various components connect together.
+
+![](https://github.com/dledge/ADI002-SAM-Framework/blob/master/Documentation/Automotive%20block%20diagram.PNG)
