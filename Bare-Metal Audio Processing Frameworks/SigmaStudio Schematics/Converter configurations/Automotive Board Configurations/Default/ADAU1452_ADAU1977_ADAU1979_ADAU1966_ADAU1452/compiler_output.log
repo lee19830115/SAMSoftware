@@ -1,0 +1,322 @@
+ADAU145X Assembler, Analog Devices Inc.
+Version: 3.14.2,1132  (built 12/23/2016)
+
+##### Compile Started: Tuesday, June 27, 2017 8:07:53 PM #####
+ADAU145X Assembler, Analog Devices Inc.
+Version: 3.14.2,1132  (built 12/23/2016)
+
+##### Compile Started: Tuesday, June 27, 2017 8:07:53 PM #####
+##### Compile succeeded:  0 errors, 0 warnings #####
+
+##### Summary #####
+DM0 RAM used:     00282    (of 20480)
+DM1 RAM used:     00084    (of 20480)
+PM  RAM used:     00000    (of 8192)
+Program Length:   00721    650 instructions (32bit: 579  64bit: 71)
+Total PM used:    00721    (of 8192)
+
+--------------------------------------------------------------------------------------
+STREAM                        Inst      Inst      DM0     DM1     PM
+Instance                      (cycles)  (size)    
+--------------------------------------------------------------------------------------
+STACK                          -         -        16      0       0       
+FRAMEWORK                     52        33        11      0       0
+ DSP TDM IN (SerialData 1)    32        32        0       16      0
+Single 1                      25        28        3       8       0
+MX1_6                         21        26        8       2       0
+MX1_5                         21        26        8       2       0
+MX1_8                         21        26        8       2       0
+MX1_7                         21        26        8       2       0
+MX1_9                         18        24        5       2       0
+MX3                           18        24        5       2       0
+MX1_10                        18        24        5       2       0
+MX1_12                        18        24        5       2       0
+MX1_11                        18        24        5       2       0
+MX2                           18        24        5       2       0
+Tone2                         18        18        10      1       0
+Tone2_2                       18        18        10      1       0
+Tone2_3                       18        18        10      1       0
+Tone2_5                       18        18        10      1       0
+Tone2_4                       18        18        10      1       0
+Level '77 Ch 2                13        13        14      1       0
+Level '77 Ch 0                13        13        14      1       0
+Level '77 Ch 3                13        13        14      1       0
+Level '77 Ch 1                13        13        14      1       0
+Level '79 Ch 1                13        13        14      1       0
+Level '79 Ch 0                13        13        14      1       0
+Level '79 Ch 3                13        13        14      1       0
+Level '79 Ch 2                13        13        14      1       0
+Single 3_2                    9         9         4       2       0
+Single 3                      9         9         4       2       0
+DCB2                          8         8         3       3       0
+DCB2_4                        8         8         3       3       0
+DCB2_3                        8         8         3       3       0
+DCB2_2                        8         8         3       3       0
+Tol1                          8         8         2       1       0
+ADAU1977 IN (SerialData 2)    8         8         0       4       0
+ADAU1979 IN (SerialData 3)    8         8         0       0       0
+DC2_2                         2         2         1       1       0
+DC2                           2         2         1       1       0
+Output4_14                    2         2         0       0       0
+Output4_12                    2         2         0       0       0
+Output3                       2         2         0       0       0
+Output4                       2         2         0       0       0
+Output1                       2         2         0       0       0
+Output4_13                    2         2         0       0       0
+Output2                       2         2         0       0       0
+Output4_11                    2         2         0       0       0
+Output4_6                     2         2         0       0       0
+Output4_5                     2         2         0       0       0
+Output4_7                     2         2         0       0       0
+Output4_8                     2         2         0       0       0
+Output4_10                    2         2         0       0       0
+Output4_9                     2         2         0       0       0
+Output4_4                     2         2         0       0       0
+Output4_3                     2         2         0       0       0
+Output6_6                     2         2         0       0       0
+GPO1                          2         2         0       0       0
+Output6_7                     2         2         0       0       0
+Output6_8                     2         2         0       0       0
+Output6_3                     2         2         0       0       0
+Output6_2                     2         2         0       0       0
+Output6                       2         2         0       0       0
+Output6_4                     2         2         0       0       0
+Output6_5                     2         2         0       0       0
+Output6_14                    2         2         0       0       0
+Output6_10                    2         2         0       0       0
+Output6_16                    2         2         0       0       0
+Output6_15                    2         2         0       0       0
+Output6_11                    2         2         0       0       0
+Output6_9                     2         2         0       0       0
+Output6_13                    2         2         0       0       0
+Output6_12                    2         2         0       0       0
+--------------------------------------------------------------------------------------
+Total                         639       679       278     80      0
+--------------------------------------------------------------------------------------
+(% Fs=48.0kHz)                11%       9%        2%      1%      0%
+
+##### DM0 Allocation Summary #####
+ModuloMemoryRegions:    Addr:   Modulo: Length:
+_STACK_MODULO_          0x0     0       16
+
+
+Address:  Module:                 Param:
+0x0        __STACK__                __STACK__ [16] =0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000
+0x10                                MP1_DM1 [4] =0x00000000,0x00000000,0x00000050,0x00000000
+0x14       __SafeLoad_Module__      data_SafeLoad [5] =0x00000000,0x00000000,0x00000000,0x00000000,0x00000000
+0x19       __SafeLoad_Module__      address_SafeLoad =0x00000000
+0x1A       __SafeLoad_Module__      num_SafeLoad =0x00000000
+0x1B       SinePhaseGainAlgS3001    gain_0 =0x00000000
+0x1C       SinePhaseGainAlgS3001    index_fp_hi_0 =0x00000000
+0x1D       SinePhaseGainAlgS3001    index_fp_lo_0 =0x00000000
+0x1E       SinePhaseGainAlgS3001    mask [2] =0x000007FF,0xFFFFFFFF
+0x20       SinePhaseGainAlgS3001    inc [2] =0x00000000,0x00000000
+0x22       SinePhaseGainAlgS3001    sinTable [3] =0x0000C000,0x0000C000,0x00000800
+0x25       SinePhaseGainAlgS3002    gain_0 =0x00000000
+0x26       SinePhaseGainAlgS3002    index_fp_hi_0 =0x00000000
+0x27       SinePhaseGainAlgS3002    index_fp_lo_0 =0x00000000
+0x28       SinePhaseGainAlgS3002    mask [2] =0x000007FF,0xFFFFFFFF
+0x2A       SinePhaseGainAlgS3002    inc [2] =0x00000000,0x00000000
+0x2C       SinePhaseGainAlgS3002    sinTable [3] =0x0000C000,0x0000C000,0x00000800
+0x2F       SinePhaseGainAlgS3003    gain_0 =0x00000000
+0x30       SinePhaseGainAlgS3003    index_fp_hi_0 =0x00000000
+0x31       SinePhaseGainAlgS3003    index_fp_lo_0 =0x00000000
+0x32       SinePhaseGainAlgS3003    mask [2] =0x000007FF,0xFFFFFFFF
+0x34       SinePhaseGainAlgS3003    inc [2] =0x00000000,0x00000000
+0x36       SinePhaseGainAlgS3003    sinTable [3] =0x0000C000,0x0000C000,0x00000800
+0x39       SinePhaseGainAlgS3004    gain_0 =0x00000000
+0x3A       SinePhaseGainAlgS3004    index_fp_hi_0 =0x00000000
+0x3B       SinePhaseGainAlgS3004    index_fp_lo_0 =0x00000000
+0x3C       SinePhaseGainAlgS3004    mask [2] =0x000007FF,0xFFFFFFFF
+0x3E       SinePhaseGainAlgS3004    inc [2] =0x00000000,0x00000000
+0x40       SinePhaseGainAlgS3004    sinTable [3] =0x0000C000,0x0000C000,0x00000800
+0x43       SinePhaseGainAlgS3005    gain_0 =0x00000000
+0x44       SinePhaseGainAlgS3005    index_fp_hi_0 =0x00000000
+0x45       SinePhaseGainAlgS3005    index_fp_lo_0 =0x00000000
+0x46       SinePhaseGainAlgS3005    mask [2] =0x000007FF,0xFFFFFFFF
+0x48       SinePhaseGainAlgS3005    inc [2] =0x00000000,0x00000000
+0x4A       SinePhaseGainAlgS3005    sinTable [3] =0x0000C000,0x0000C000,0x00000800
+0x4D       DCBlockAlgDblPrecS3002   sig_out_zm1 [2] =0x00000000,0x00000000
+0x4F       DCBlockAlgDblPrecS3002   pole =0x00FFF972
+0x50       DCBlockAlgDblPrecS3003   sig_out_zm1 [2] =0x00000000,0x00000000
+0x52       DCBlockAlgDblPrecS3003   pole =0x00FFF972
+0x53       DCBlockAlgDblPrecS3004   sig_out_zm1 [2] =0x00000000,0x00000000
+0x55       DCBlockAlgDblPrecS3004   pole =0x00FFF972
+0x56       DCBlockAlgDblPrecS3005   sig_out_zm1 [2] =0x00000000,0x00000000
+0x58       DCBlockAlgDblPrecS3005   pole =0x00FFF972
+0x59       TolAlgS3001              lower0 =0x00000000
+0x5A       TolAlgS3001              higher0 =0x00000000
+0x5B       HWGainADAU145XAlg1       gain =0x00000000
+0x5C       HWGainADAU145XAlg1       target =0x00000000
+0x5D       HWGainADAU145XAlg1       slew_mode =0x00000000
+0x5E       SingleBandLevelDetS3001  TCONST =0x00000000
+0x5F       SingleBandLevelDetS3001  hold =0x00000000
+0x60       SingleBandLevelDetS3001  decay =0x00000000
+0x61       SingleBandLevelDetS3001  rms [2] =0x00000000,0x00000000
+0x63       SingleBandLevelDetS3001  held_db =0x00000000
+0x64       SingleBandLevelDetS3001  hold_count =0x00000000
+0x65       SingleBandLevelDetS3001  x_sq [2] =0x00000000,0x00000000
+0x67       SingleBandLevelDetS3001  dbout =0x00000000
+0x68       SingleBandLevelDetS3001  X =0x00000000
+0x69       SingleBandLevelDetS3001  X_lo =0x00000000
+0x6A       SingleBandLevelDetS3001  LinX =0x00000000
+0x6B       SingleBandLevelDetS3001  LinX_lo =0x00000000
+0x6C       SingleBandLevelDetS3002  TCONST =0x00000000
+0x6D       SingleBandLevelDetS3002  hold =0x00000000
+0x6E       SingleBandLevelDetS3002  decay =0x00000000
+0x6F       SingleBandLevelDetS3002  rms [2] =0x00000000,0x00000000
+0x71       SingleBandLevelDetS3002  held_db =0x00000000
+0x72       SingleBandLevelDetS3002  hold_count =0x00000000
+0x73       SingleBandLevelDetS3002  x_sq [2] =0x00000000,0x00000000
+0x75       SingleBandLevelDetS3002  dbout =0x00000000
+0x76       SingleBandLevelDetS3002  X =0x00000000
+0x77       SingleBandLevelDetS3002  X_lo =0x00000000
+0x78       SingleBandLevelDetS3002  LinX =0x00000000
+0x79       SingleBandLevelDetS3002  LinX_lo =0x00000000
+0x7A       SingleBandLevelDetS3003  TCONST =0x00000000
+0x7B       SingleBandLevelDetS3003  hold =0x00000000
+0x7C       SingleBandLevelDetS3003  decay =0x00000000
+0x7D       SingleBandLevelDetS3003  rms [2] =0x00000000,0x00000000
+0x7F       SingleBandLevelDetS3003  held_db =0x00000000
+0x80       SingleBandLevelDetS3003  hold_count =0x00000000
+0x81       SingleBandLevelDetS3003  x_sq [2] =0x00000000,0x00000000
+0x83       SingleBandLevelDetS3003  dbout =0x00000000
+0x84       SingleBandLevelDetS3003  X =0x00000000
+0x85       SingleBandLevelDetS3003  X_lo =0x00000000
+0x86       SingleBandLevelDetS3003  LinX =0x00000000
+0x87       SingleBandLevelDetS3003  LinX_lo =0x00000000
+0x88       SingleBandLevelDetS3004  TCONST =0x00000000
+0x89       SingleBandLevelDetS3004  hold =0x00000000
+0x8A       SingleBandLevelDetS3004  decay =0x00000000
+0x8B       SingleBandLevelDetS3004  rms [2] =0x00000000,0x00000000
+0x8D       SingleBandLevelDetS3004  held_db =0x00000000
+0x8E       SingleBandLevelDetS3004  hold_count =0x00000000
+0x8F       SingleBandLevelDetS3004  x_sq [2] =0x00000000,0x00000000
+0x91       SingleBandLevelDetS3004  dbout =0x00000000
+0x92       SingleBandLevelDetS3004  X =0x00000000
+0x93       SingleBandLevelDetS3004  X_lo =0x00000000
+0x94       SingleBandLevelDetS3004  LinX =0x00000000
+0x95       SingleBandLevelDetS3004  LinX_lo =0x00000000
+0x96       DCinputmux_stereoHW_AlgSigma3008 slew_mode =0x00000000
+0x97       DCinputmux_stereoHW_AlgSigma3007 slew_mode =0x00000000
+0x98       DCinputmux_stereoHW_AlgSigma3009 slew_mode =0x00000000
+0x99       DCinputmux_stereoHW_AlgSigma30010 slew_mode =0x00000000
+0x9A       DCinputmux_stereoHW_AlgSigma3001 slew_mode =0x00000000
+0x9B       DCinputmux_stereoHW_AlgSigma3002 slew_mode =0x00000000
+0x9C       DCinputmux_stereoHW_AlgSigma3003 slew_mode =0x00000000
+0x9D       DCinputmux_stereoHW_AlgSigma3004 slew_mode =0x00000000
+0x9E       SingleBandLevelDetS3008  TCONST =0x00000000
+0x9F       SingleBandLevelDetS3008  hold =0x00000000
+0xA0       SingleBandLevelDetS3008  decay =0x00000000
+0xA1       SingleBandLevelDetS3008  rms [2] =0x00000000,0x00000000
+0xA3       SingleBandLevelDetS3008  held_db =0x00000000
+0xA4       SingleBandLevelDetS3008  hold_count =0x00000000
+0xA5       SingleBandLevelDetS3008  x_sq [2] =0x00000000,0x00000000
+0xA7       SingleBandLevelDetS3008  dbout =0x00000000
+0xA8       SingleBandLevelDetS3008  X =0x00000000
+0xA9       SingleBandLevelDetS3008  X_lo =0x00000000
+0xAA       SingleBandLevelDetS3008  LinX =0x00000000
+0xAB       SingleBandLevelDetS3008  LinX_lo =0x00000000
+0xAC       SingleBandLevelDetS3007  TCONST =0x00000000
+0xAD       SingleBandLevelDetS3007  hold =0x00000000
+0xAE       SingleBandLevelDetS3007  decay =0x00000000
+0xAF       SingleBandLevelDetS3007  rms [2] =0x00000000,0x00000000
+0xB1       SingleBandLevelDetS3007  held_db =0x00000000
+0xB2       SingleBandLevelDetS3007  hold_count =0x00000000
+0xB3       SingleBandLevelDetS3007  x_sq [2] =0x00000000,0x00000000
+0xB5       SingleBandLevelDetS3007  dbout =0x00000000
+0xB6       SingleBandLevelDetS3007  X =0x00000000
+0xB7       SingleBandLevelDetS3007  X_lo =0x00000000
+0xB8       SingleBandLevelDetS3007  LinX =0x00000000
+0xB9       SingleBandLevelDetS3007  LinX_lo =0x00000000
+0xBA       SingleBandLevelDetS3006  TCONST =0x00000000
+0xBB       SingleBandLevelDetS3006  hold =0x00000000
+0xBC       SingleBandLevelDetS3006  decay =0x00000000
+0xBD       SingleBandLevelDetS3006  rms [2] =0x00000000,0x00000000
+0xBF       SingleBandLevelDetS3006  held_db =0x00000000
+0xC0       SingleBandLevelDetS3006  hold_count =0x00000000
+0xC1       SingleBandLevelDetS3006  x_sq [2] =0x00000000,0x00000000
+0xC3       SingleBandLevelDetS3006  dbout =0x00000000
+0xC4       SingleBandLevelDetS3006  X =0x00000000
+0xC5       SingleBandLevelDetS3006  X_lo =0x00000000
+0xC6       SingleBandLevelDetS3006  LinX =0x00000000
+0xC7       SingleBandLevelDetS3006  LinX_lo =0x00000000
+0xC8       SingleBandLevelDetS3005  TCONST =0x00000000
+0xC9       SingleBandLevelDetS3005  hold =0x00000000
+0xCA       SingleBandLevelDetS3005  decay =0x00000000
+0xCB       SingleBandLevelDetS3005  rms [2] =0x00000000,0x00000000
+0xCD       SingleBandLevelDetS3005  held_db =0x00000000
+0xCE       SingleBandLevelDetS3005  hold_count =0x00000000
+0xCF       SingleBandLevelDetS3005  x_sq [2] =0x00000000,0x00000000
+0xD1       SingleBandLevelDetS3005  dbout =0x00000000
+0xD2       SingleBandLevelDetS3005  X =0x00000000
+0xD3       SingleBandLevelDetS3005  X_lo =0x00000000
+0xD4       SingleBandLevelDetS3005  LinX =0x00000000
+0xD5       SingleBandLevelDetS3005  LinX_lo =0x00000000
+0xD6       DCinputmux_stereoHW_AlgSigma3006 slew_mode =0x00000000
+0xD7       DCinputmux_stereoHW_AlgSigma3005 slew_mode =0x00000000
+0xD8       SWGainOptADAU145XAlg1    gain =0x00000000
+0xD9       SWGainOptADAU145XAlg1    target =0x00000000
+0xDA       SWGainOptADAU145XAlg1    alpha =0x00000000
+0xDB       SWGainOptADAU145XAlg1    om_alpha =0x00000000
+0xDC       SWGainOptADAU145XAlg2    gain =0x00000000
+0xDD       SWGainOptADAU145XAlg2    target =0x00000000
+0xDE       SWGainOptADAU145XAlg2    alpha =0x00000000
+0xDF       SWGainOptADAU145XAlg2    om_alpha =0x00000000
+0xE0       DCinputmux_stereoHW_AlgSigma3008 vol0 =0x00000000
+0xE1       DCinputmux_stereoHW_AlgSigma3008 vol1 =0x00000000
+0xE2       DCinputmux_stereoHW_AlgSigma3008 vol2 =0x00000000
+0xE3       DCinputmux_stereoHW_AlgSigma3008 cur0 =0x00000000
+0xE4       DCinputmux_stereoHW_AlgSigma3008 cur1 =0x00000000
+0xE5       DCinputmux_stereoHW_AlgSigma3008 cur2 =0x00000000
+0xE6       DCinputmux_stereoHW_AlgSigma3008 cur3 =0x00000000
+0xE7       DCinputmux_stereoHW_AlgSigma3007 vol0 =0x00000000
+0xE8       DCinputmux_stereoHW_AlgSigma3007 vol1 =0x00000000
+0xE9       DCinputmux_stereoHW_AlgSigma3007 vol2 =0x00000000
+0xEA       DCinputmux_stereoHW_AlgSigma3007 cur0 =0x00000000
+0xEB       DCinputmux_stereoHW_AlgSigma3007 cur1 =0x00000000
+0xEC       DCinputmux_stereoHW_AlgSigma3007 cur2 =0x00000000
+0xED       DCinputmux_stereoHW_AlgSigma3007 cur3 =0x00000000
+0xEE       DCinputmux_stereoHW_AlgSigma3009 vol0 =0x00000000
+0xEF       DCinputmux_stereoHW_AlgSigma3009 vol1 =0x00000000
+0xF0       DCinputmux_stereoHW_AlgSigma3009 cur0 =0x00000000
+0xF1       DCinputmux_stereoHW_AlgSigma3009 cur1 =0x00000000
+0xF2       DCinputmux_stereoHW_AlgSigma30010 vol0 =0x00000000
+0xF3       DCinputmux_stereoHW_AlgSigma30010 vol1 =0x00000000
+0xF4       DCinputmux_stereoHW_AlgSigma30010 cur0 =0x00000000
+0xF5       DCinputmux_stereoHW_AlgSigma30010 cur1 =0x00000000
+0xF6       DCinputmux_stereoHW_AlgSigma3001 vol0 =0x00000000
+0xF7       DCinputmux_stereoHW_AlgSigma3001 vol1 =0x00000000
+0xF8       DCinputmux_stereoHW_AlgSigma3001 cur0 =0x00000000
+0xF9       DCinputmux_stereoHW_AlgSigma3001 cur1 =0x00000000
+0xFA       DCinputmux_stereoHW_AlgSigma3002 vol0 =0x00000000
+0xFB       DCinputmux_stereoHW_AlgSigma3002 vol1 =0x00000000
+0xFC       DCinputmux_stereoHW_AlgSigma3002 cur0 =0x00000000
+0xFD       DCinputmux_stereoHW_AlgSigma3002 cur1 =0x00000000
+0xFE       DCinputmux_stereoHW_AlgSigma3003 vol0 =0x00000000
+0xFF       DCinputmux_stereoHW_AlgSigma3003 vol1 =0x00000000
+0x100      DCinputmux_stereoHW_AlgSigma3003 cur0 =0x00000000
+0x101      DCinputmux_stereoHW_AlgSigma3003 cur1 =0x00000000
+0x102      DCinputmux_stereoHW_AlgSigma3004 vol0 =0x00000000
+0x103      DCinputmux_stereoHW_AlgSigma3004 vol1 =0x00000000
+0x104      DCinputmux_stereoHW_AlgSigma3004 cur0 =0x00000000
+0x105      DCinputmux_stereoHW_AlgSigma3004 cur1 =0x00000000
+0x106      DCinputmux_stereoHW_AlgSigma3006 vol0 =0x00000000
+0x107      DCinputmux_stereoHW_AlgSigma3006 vol1 =0x00000000
+0x108      DCinputmux_stereoHW_AlgSigma3006 vol2 =0x00000000
+0x109      DCinputmux_stereoHW_AlgSigma3006 cur0 =0x00000000
+0x10A      DCinputmux_stereoHW_AlgSigma3006 cur1 =0x00000000
+0x10B      DCinputmux_stereoHW_AlgSigma3006 cur2 =0x00000000
+0x10C      DCinputmux_stereoHW_AlgSigma3006 cur3 =0x00000000
+0x10D      DCinputmux_stereoHW_AlgSigma3005 vol0 =0x00000000
+0x10E      DCinputmux_stereoHW_AlgSigma3005 vol1 =0x00000000
+0x10F      DCinputmux_stereoHW_AlgSigma3005 vol2 =0x00000000
+0x110      DCinputmux_stereoHW_AlgSigma3005 cur0 =0x00000000
+0x111      DCinputmux_stereoHW_AlgSigma3005 cur1 =0x00000000
+0x112      DCinputmux_stereoHW_AlgSigma3005 cur2 =0x00000000
+0x113      DCinputmux_stereoHW_AlgSigma3005 cur3 =0x00000000
+0x114      DCInpAlg145X3            value =0x00000000
+0x115      DCInpAlg145X2            value =0x00000000
+0x116      __DM0_PADDING__          __DM0_PADDING__ [4] =0x00000000,0x00000000,0x00000000,0x00000000
+
+

@@ -1,0 +1,709 @@
+Cell Name         = Single 1
+Parameter Name    = HWGainADAU145XAlg1slew_mode
+Parameter Address = 93
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = Single 1
+Parameter Name    = HWGainADAU145XAlg1target
+Parameter Address = 92
+Parameter Value   = 1
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = MX1_5
+Parameter Name    = DCinputmux_stereoHW_AlgSigma3005slew_mode
+Parameter Address = 215
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = MX1_5
+Parameter Name    = DCinputmux_stereoHW_AlgSigma3005slew_mode
+Parameter Address = 215
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = MX1_5
+Parameter Name    = DCinputmux_stereoHW_AlgSigma3005slew_mode
+Parameter Address = 215
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = MX1_6
+Parameter Name    = DCinputmux_stereoHW_AlgSigma3006slew_mode
+Parameter Address = 214
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = MX1_6
+Parameter Name    = DCinputmux_stereoHW_AlgSigma3006slew_mode
+Parameter Address = 214
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = MX1_6
+Parameter Name    = DCinputmux_stereoHW_AlgSigma3006slew_mode
+Parameter Address = 214
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = MX1_7
+Parameter Name    = DCinputmux_stereoHW_AlgSigma3007slew_mode
+Parameter Address = 151
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = MX1_7
+Parameter Name    = DCinputmux_stereoHW_AlgSigma3007slew_mode
+Parameter Address = 151
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = MX1_7
+Parameter Name    = DCinputmux_stereoHW_AlgSigma3007slew_mode
+Parameter Address = 151
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = MX1_8
+Parameter Name    = DCinputmux_stereoHW_AlgSigma3008slew_mode
+Parameter Address = 150
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = MX1_8
+Parameter Name    = DCinputmux_stereoHW_AlgSigma3008slew_mode
+Parameter Address = 150
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = MX1_8
+Parameter Name    = DCinputmux_stereoHW_AlgSigma3008slew_mode
+Parameter Address = 150
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = MX2
+Parameter Name    = DCinputmux_stereoHW_AlgSigma3009slew_mode
+Parameter Address = 152
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = MX2
+Parameter Name    = DCinputmux_stereoHW_AlgSigma3009slew_mode
+Parameter Address = 152
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = DC2_2
+Parameter Name    = DCInpAlg145X3value
+Parameter Address = 276
+Parameter Value   = 0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = MX3
+Parameter Name    = DCinputmux_stereoHW_AlgSigma30010slew_mode
+Parameter Address = 153
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = MX3
+Parameter Name    = DCinputmux_stereoHW_AlgSigma30010slew_mode
+Parameter Address = 153
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = DC2
+Parameter Name    = DCInpAlg145X2value
+Parameter Address = 277
+Parameter Value   = 2
+Parameter Data :
+0x00, 0x00, 0x00, 0x02, 
+
+
+
+Cell Name         = Single 3
+Parameter Name    = SWGainOptADAU145XAlg1target
+Parameter Address = 217
+Parameter Value   = 0.501187205314636
+Parameter Data :
+0x00, 0x80, 0x4D, 0xCE, 
+
+
+
+Cell Name         = Single 3
+Parameter Name    = SWGainOptADAU145XAlg1alpha
+Parameter Address = 218
+Parameter Data :
+0x00, 0xFF, 0xE4, 0xB3, 
+0x00, 0x00, 0x1B, 0x4D, 
+
+
+
+Cell Name         = Level '77 Ch 0
+Parameter Name    = SingleBandLevelDetS3001TCONST
+Parameter Address = 94
+Parameter Value   = 0.00240141153335571
+Parameter Data :
+0x00 ,	0x00 ,	0x9D ,	0x61 ,	
+
+
+
+Cell Name         = Level '77 Ch 0
+Parameter Name    = SingleBandLevelDetS3001hold
+Parameter Address = 95
+Parameter Value   = 480
+Parameter Data :
+0x00 ,	0x00 ,	0x01 ,	0xE0 ,	
+
+
+
+Cell Name         = Level '77 Ch 0
+Parameter Name    = SingleBandLevelDetS3001decay
+Parameter Address = 96
+Parameter Value   = 0.000217020511627197
+Parameter Data :
+0x00 ,	0x00 ,	0x0E ,	0x39 ,	
+
+
+
+Cell Name         = Level '77 Ch 1
+Parameter Name    = SingleBandLevelDetS3002TCONST
+Parameter Address = 108
+Parameter Value   = 0.00240141153335571
+Parameter Data :
+0x00 ,	0x00 ,	0x9D ,	0x61 ,	
+
+
+
+Cell Name         = Level '77 Ch 1
+Parameter Name    = SingleBandLevelDetS3002hold
+Parameter Address = 109
+Parameter Value   = 480
+Parameter Data :
+0x00 ,	0x00 ,	0x01 ,	0xE0 ,	
+
+
+
+Cell Name         = Level '77 Ch 1
+Parameter Name    = SingleBandLevelDetS3002decay
+Parameter Address = 110
+Parameter Value   = 0.000217020511627197
+Parameter Data :
+0x00 ,	0x00 ,	0x0E ,	0x39 ,	
+
+
+
+Cell Name         = Level '77 Ch 2
+Parameter Name    = SingleBandLevelDetS3003TCONST
+Parameter Address = 122
+Parameter Value   = 0.00240141153335571
+Parameter Data :
+0x00 ,	0x00 ,	0x9D ,	0x61 ,	
+
+
+
+Cell Name         = Level '77 Ch 2
+Parameter Name    = SingleBandLevelDetS3003hold
+Parameter Address = 123
+Parameter Value   = 480
+Parameter Data :
+0x00 ,	0x00 ,	0x01 ,	0xE0 ,	
+
+
+
+Cell Name         = Level '77 Ch 2
+Parameter Name    = SingleBandLevelDetS3003decay
+Parameter Address = 124
+Parameter Value   = 0.000217020511627197
+Parameter Data :
+0x00 ,	0x00 ,	0x0E ,	0x39 ,	
+
+
+
+Cell Name         = Level '77 Ch 3
+Parameter Name    = SingleBandLevelDetS3004TCONST
+Parameter Address = 136
+Parameter Value   = 0.00240141153335571
+Parameter Data :
+0x00 ,	0x00 ,	0x9D ,	0x61 ,	
+
+
+
+Cell Name         = Level '77 Ch 3
+Parameter Name    = SingleBandLevelDetS3004hold
+Parameter Address = 137
+Parameter Value   = 480
+Parameter Data :
+0x00 ,	0x00 ,	0x01 ,	0xE0 ,	
+
+
+
+Cell Name         = Level '77 Ch 3
+Parameter Name    = SingleBandLevelDetS3004decay
+Parameter Address = 138
+Parameter Value   = 0.000217020511627197
+Parameter Data :
+0x00 ,	0x00 ,	0x0E ,	0x39 ,	
+
+
+
+Cell Name         = Level '79 Ch 0
+Parameter Name    = SingleBandLevelDetS3005TCONST
+Parameter Address = 200
+Parameter Value   = 0.00240141153335571
+Parameter Data :
+0x00 ,	0x00 ,	0x9D ,	0x61 ,	
+
+
+
+Cell Name         = Level '79 Ch 0
+Parameter Name    = SingleBandLevelDetS3005hold
+Parameter Address = 201
+Parameter Value   = 480
+Parameter Data :
+0x00 ,	0x00 ,	0x01 ,	0xE0 ,	
+
+
+
+Cell Name         = Level '79 Ch 0
+Parameter Name    = SingleBandLevelDetS3005decay
+Parameter Address = 202
+Parameter Value   = 0.000217020511627197
+Parameter Data :
+0x00 ,	0x00 ,	0x0E ,	0x39 ,	
+
+
+
+Cell Name         = Level '79 Ch 1
+Parameter Name    = SingleBandLevelDetS3006TCONST
+Parameter Address = 186
+Parameter Value   = 0.00240141153335571
+Parameter Data :
+0x00 ,	0x00 ,	0x9D ,	0x61 ,	
+
+
+
+Cell Name         = Level '79 Ch 1
+Parameter Name    = SingleBandLevelDetS3006hold
+Parameter Address = 187
+Parameter Value   = 480
+Parameter Data :
+0x00 ,	0x00 ,	0x01 ,	0xE0 ,	
+
+
+
+Cell Name         = Level '79 Ch 1
+Parameter Name    = SingleBandLevelDetS3006decay
+Parameter Address = 188
+Parameter Value   = 0.000217020511627197
+Parameter Data :
+0x00 ,	0x00 ,	0x0E ,	0x39 ,	
+
+
+
+Cell Name         = Level '79 Ch 2
+Parameter Name    = SingleBandLevelDetS3007TCONST
+Parameter Address = 172
+Parameter Value   = 0.00240141153335571
+Parameter Data :
+0x00 ,	0x00 ,	0x9D ,	0x61 ,	
+
+
+
+Cell Name         = Level '79 Ch 2
+Parameter Name    = SingleBandLevelDetS3007hold
+Parameter Address = 173
+Parameter Value   = 480
+Parameter Data :
+0x00 ,	0x00 ,	0x01 ,	0xE0 ,	
+
+
+
+Cell Name         = Level '79 Ch 2
+Parameter Name    = SingleBandLevelDetS3007decay
+Parameter Address = 174
+Parameter Value   = 0.000217020511627197
+Parameter Data :
+0x00 ,	0x00 ,	0x0E ,	0x39 ,	
+
+
+
+Cell Name         = Level '79 Ch 3
+Parameter Name    = SingleBandLevelDetS3008TCONST
+Parameter Address = 158
+Parameter Value   = 0.00240141153335571
+Parameter Data :
+0x00 ,	0x00 ,	0x9D ,	0x61 ,	
+
+
+
+Cell Name         = Level '79 Ch 3
+Parameter Name    = SingleBandLevelDetS3008hold
+Parameter Address = 159
+Parameter Value   = 480
+Parameter Data :
+0x00 ,	0x00 ,	0x01 ,	0xE0 ,	
+
+
+
+Cell Name         = Level '79 Ch 3
+Parameter Name    = SingleBandLevelDetS3008decay
+Parameter Address = 160
+Parameter Value   = 0.000217020511627197
+Parameter Data :
+0x00 ,	0x00 ,	0x0E ,	0x39 ,	
+
+
+
+Cell Name         = MX1_9
+Parameter Name    = DCinputmux_stereoHW_AlgSigma3001slew_mode
+Parameter Address = 154
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = MX1_9
+Parameter Name    = DCinputmux_stereoHW_AlgSigma3001slew_mode
+Parameter Address = 154
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = MX1_10
+Parameter Name    = DCinputmux_stereoHW_AlgSigma3002slew_mode
+Parameter Address = 155
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = MX1_10
+Parameter Name    = DCinputmux_stereoHW_AlgSigma3002slew_mode
+Parameter Address = 155
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = MX1_11
+Parameter Name    = DCinputmux_stereoHW_AlgSigma3003slew_mode
+Parameter Address = 156
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = MX1_11
+Parameter Name    = DCinputmux_stereoHW_AlgSigma3003slew_mode
+Parameter Address = 156
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = MX1_12
+Parameter Name    = DCinputmux_stereoHW_AlgSigma3004slew_mode
+Parameter Address = 157
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = MX1_12
+Parameter Name    = DCinputmux_stereoHW_AlgSigma3004slew_mode
+Parameter Address = 157
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = Tone2
+Parameter Name    = SinePhaseGainAlgS3001inc
+Parameter Address = 32
+Parameter Value   = 0.00845831632614136
+Parameter Data :
+0x00, 0x02, 0x2A, 0x53, 
+
+
+
+Cell Name         = Tone2
+Parameter Name    = SinePhaseGainAlgS3001index_fp_hi_0
+Parameter Address = 28
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = Tone2
+Parameter Name    = SinePhaseGainAlgS3001gain_0
+Parameter Address = 27
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = Tone2_2
+Parameter Name    = SinePhaseGainAlgS3002inc
+Parameter Address = 42
+Parameter Value   = 0.00845831632614136
+Parameter Data :
+0x00, 0x02, 0x2A, 0x53, 
+
+
+
+Cell Name         = Tone2_2
+Parameter Name    = SinePhaseGainAlgS3002index_fp_hi_0
+Parameter Address = 38
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = Tone2_2
+Parameter Name    = SinePhaseGainAlgS3002gain_0
+Parameter Address = 37
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = Single 3_2
+Parameter Name    = SWGainOptADAU145XAlg2target
+Parameter Address = 221
+Parameter Value   = 0.794328212738037
+Parameter Data :
+0x00, 0xCB, 0x59, 0x18, 
+
+
+
+Cell Name         = Single 3_2
+Parameter Name    = SWGainOptADAU145XAlg2alpha
+Parameter Address = 222
+Parameter Data :
+0x00, 0xFF, 0xE4, 0xB3, 
+0x00, 0x00, 0x1B, 0x4D, 
+
+
+
+Cell Name         = Tone2_3
+Parameter Name    = SinePhaseGainAlgS3003inc
+Parameter Address = 52
+Parameter Value   = 0.050041675567627
+Parameter Data :
+0x00, 0x0C, 0xCF, 0x88, 
+
+
+
+Cell Name         = Tone2_3
+Parameter Name    = SinePhaseGainAlgS3003index_fp_hi_0
+Parameter Address = 48
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = Tone2_3
+Parameter Name    = SinePhaseGainAlgS3003gain_0
+Parameter Address = 47
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = Tone2_4
+Parameter Name    = SinePhaseGainAlgS3004inc
+Parameter Address = 62
+Parameter Value   = 0.0501250028610229
+Parameter Data :
+0x00, 0x0C, 0xD4, 0xFE, 
+
+
+
+Cell Name         = Tone2_4
+Parameter Name    = SinePhaseGainAlgS3004index_fp_hi_0
+Parameter Address = 58
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = Tone2_4
+Parameter Name    = SinePhaseGainAlgS3004gain_0
+Parameter Address = 57
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = DCB2
+Parameter Name    = DCBlockAlgDblPrecS3002pole
+Parameter Address = 79
+Parameter Value   = 0.999899983406067
+Parameter Data :
+0x00, 0xFF, 0xF9, 0x72, 
+
+
+
+Cell Name         = DCB2_2
+Parameter Name    = DCBlockAlgDblPrecS3003pole
+Parameter Address = 82
+Parameter Value   = 0.999899983406067
+Parameter Data :
+0x00, 0xFF, 0xF9, 0x72, 
+
+
+
+Cell Name         = DCB2_3
+Parameter Name    = DCBlockAlgDblPrecS3004pole
+Parameter Address = 85
+Parameter Value   = 0.999899983406067
+Parameter Data :
+0x00, 0xFF, 0xF9, 0x72, 
+
+
+
+Cell Name         = DCB2_4
+Parameter Name    = DCBlockAlgDblPrecS3005pole
+Parameter Address = 88
+Parameter Value   = 0.999899983406067
+Parameter Data :
+0x00, 0xFF, 0xF9, 0x72, 
+
+
+
+Cell Name         = Tone2_5
+Parameter Name    = SinePhaseGainAlgS3005inc
+Parameter Address = 72
+Parameter Value   = 4.1663646697998E-05
+Parameter Data :
+0x00, 0x00, 0x02, 0xBB, 
+
+
+
+Cell Name         = Tone2_5
+Parameter Name    = SinePhaseGainAlgS3005index_fp_hi_0
+Parameter Address = 68
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = Tone2_5
+Parameter Name    = SinePhaseGainAlgS3005gain_0
+Parameter Address = 67
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = Tol1
+Parameter Name    = TolAlgS3001lower0
+Parameter Address = 89
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x1E, 0x84, 0x80, 
+
+
+
+Cell Name         = None - Framework
+Parameter Name    = __SafeLoad_Module__data_SafeLoad
+Parameter Address = 20
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = None - Framework
+Parameter Name    = __SafeLoad_Module__address_SafeLoad
+Parameter Address = 25
+Parameter Value   = 0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = None - Framework
+Parameter Name    = __SafeLoad_Module__num_SafeLoad
+Parameter Address = 26
+Parameter Value   = 0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+

@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- *
+ * This software is distributed in the hope that it will be useful,
+ * but is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+ * CONDITIONS OF ANY KIND, without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ * This software may only be used to program products purchased from
+ * Analog Devices for incorporation by you into audio products that
+ * are intended for resale to audio product end users. This software
+ * may not be distributed whole or in any part to third parties.
+ *
+ * Copyright © 2017 Analog Devices, Inc. All rights reserved.
+ */
+-->
+<!--NetList XML file-->
+<NetList>
+    <IC name=" ADAU1452 " type="ADAU1452">
+        <Schematic>
+            <Algorithm name="ICInput4ADAU145X1" friendlyname="ADAU145x Inputs 40-47" cell="ADAU1979 IN (SerialData 3) ">
+                <Link pin="O_C198_A0_P1_out" dir="out" link="Link32" />
+                <Link pin="O_C198_A0_P2_out" dir="out" link="Link33" />
+                <Link pin="O_C198_A0_P3_out" dir="out" link="Link34" />
+                <Link pin="O_C198_A0_P4_out" dir="out" link="Link35" />
+            </Algorithm>
+            <Algorithm name="DCInpAlg145X3" friendlyname="DC-Input" cell="DC2_2 ">
+                <Link pin="O_C1076_A0_P1_out" dir="out" link="Link48" />
+            </Algorithm>
+            <Algorithm name="DCInpAlg145X2" friendlyname="DC-Input" cell="DC2 ">
+                <Link pin="O_C1332_A0_P1_out" dir="out" link="Link51" />
+            </Algorithm>
+            <Algorithm name="ICInput2ADAU145X1" friendlyname="ADAU145x Inputs 16-31" cell=" DSP TDM IN (SerialData 1) ">
+                <Link pin="O_C40_A0_P1_out" dir="out" link="Link46" />
+                <Link pin="O_C40_A0_P2_out" dir="out" link="Link47" />
+                <Link pin="O_C40_A0_P3_out" dir="out" link="Link44" />
+                <Link pin="O_C40_A0_P4_out" dir="out" link="Link45" />
+                <Link pin="O_C40_A0_P5_out" dir="out" link="Link42" />
+                <Link pin="O_C40_A0_P6_out" dir="out" link="Link43" />
+                <Link pin="O_C40_A0_P7_out" dir="out" link="Link40" />
+                <Link pin="O_C40_A0_P8_out" dir="out" link="Link41" />
+                <Link pin="O_C40_A0_P9_out" dir="out" link="Link58" />
+                <Link pin="O_C40_A0_P10_out" dir="out" link="Link59" />
+                <Link pin="O_C40_A0_P11_out" dir="out" link="Link60" />
+                <Link pin="O_C40_A0_P12_out" dir="out" link="Link61" />
+                <Link pin="O_C40_A0_P13_out" dir="out" link="Link62" />
+                <Link pin="O_C40_A0_P14_out" dir="out" link="Link63" />
+                <Link pin="O_C40_A0_P15_out" dir="out" link="Link64" />
+                <Link pin="O_C40_A0_P16_out" dir="out" link="Link65" />
+            </Algorithm>
+            <Algorithm name="ICInputADAU145X1" friendlyname="ADAU145x Inputs 0-15" cell="A2B " />
+            <Algorithm name="SinePhaseGainAlgS3001" friendlyname="Sin Tone with Initial Phase" cell="Tone2 ">
+                <Link pin="O_C232_A0_P1_out" dir="out" link="Link28" />
+            </Algorithm>
+            <Algorithm name="SinePhaseGainAlgS3002" friendlyname="Sin Tone with Initial Phase" cell="Tone2_2 ">
+                <Link pin="O_C236_A0_P1_out" dir="out" link="Link29" />
+            </Algorithm>
+            <Algorithm name="ICInput3ADAU145X1" friendlyname="ADAU145x Inputs 32-39" cell="ADAU1977 IN (SerialData 2) ">
+                <Link pin="O_C292_A0_P1_out" dir="out" link="Link54" />
+                <Link pin="O_C292_A0_P2_out" dir="out" link="Link52" />
+                <Link pin="O_C292_A0_P3_out" dir="out" link="Link53" />
+                <Link pin="O_C292_A0_P4_out" dir="out" link="Link55" />
+            </Algorithm>
+            <Algorithm name="SinePhaseGainAlgS3003" friendlyname="Sin Tone with Initial Phase" cell="Tone2_3 ">
+                <Link pin="O_C316_A0_P1_out" dir="out" link="Link31" />
+            </Algorithm>
+            <Algorithm name="SinePhaseGainAlgS3004" friendlyname="Sin Tone with Initial Phase" cell="Tone2_4 ">
+                <Link pin="O_C318_A0_P1_out" dir="out" link="Link30" />
+            </Algorithm>
+            <Algorithm name="SinePhaseGainAlgS3005" friendlyname="Sin Tone with Initial Phase" cell="Tone2_5 ">
+                <Link pin="O_C0_A0_P1_out" dir="out" link="Link36" />
+            </Algorithm>
+            <Algorithm name="SWGainOptADAU145XAlg1" friendlyname="Gain (RC optimized SW slew)" cell="Single 3 ">
+                <Link pin="I_C1475_A0_P1_in" dir="in" link="Link28" />
+                <Link pin="I_C1475_A0_P3_in" dir="in" link="Link29" />
+                <Link pin="O_C1475_A0_P2_out" dir="out" link="Link38" />
+                <Link pin="O_C1475_A0_P4_out" dir="out" link="Link39" />
+            </Algorithm>
+            <Algorithm name="SWGainOptADAU145XAlg2" friendlyname="Gain (RC optimized SW slew)" cell="Single 3_2 ">
+                <Link pin="I_C311_A0_P1_in" dir="in" link="Link31" />
+                <Link pin="I_C311_A0_P3_in" dir="in" link="Link30" />
+                <Link pin="O_C311_A0_P2_out" dir="out" link="Link66" />
+                <Link pin="O_C311_A0_P4_out" dir="out" link="Link67" />
+            </Algorithm>
+            <Algorithm name="DCBlockAlgDblPrecS3002" friendlyname="DC Blocking" cell="DCB2 ">
+                <Link pin="I_C395_A0_P1_in" dir="in" link="Link32" />
+                <Link pin="O_C395_A0_P2_out" dir="out" link="Link50" />
+            </Algorithm>
+            <Algorithm name="DCBlockAlgDblPrecS3003" friendlyname="DC Blocking" cell="DCB2_2 ">
+                <Link pin="I_C400_A0_P1_in" dir="in" link="Link33" />
+                <Link pin="O_C400_A0_P2_out" dir="out" link="Link49" />
+            </Algorithm>
+            <Algorithm name="DCBlockAlgDblPrecS3004" friendlyname="DC Blocking" cell="DCB2_3 ">
+                <Link pin="I_C405_A0_P1_in" dir="in" link="Link34" />
+                <Link pin="O_C405_A0_P2_out" dir="out" link="Link57" />
+            </Algorithm>
+            <Algorithm name="DCBlockAlgDblPrecS3005" friendlyname="DC Blocking" cell="DCB2_4 ">
+                <Link pin="I_C410_A0_P1_in" dir="in" link="Link35" />
+                <Link pin="O_C410_A0_P2_out" dir="out" link="Link56" />
+            </Algorithm>
+            <Algorithm name="TolAlgS3001" friendlyname="Tolerance" cell="Tol1 ">
+                <Link pin="I_C9_A0_P1_in" dir="in" link="Link36" />
+                <Link pin="O_C9_A0_P2_out" dir="out" link="Link37" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X5" friendlyname="ADAU145x output" cell="Output6_2 ">
+                <Link pin="I_C1625_A0_P1_in" dir="in" link="Link52" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X27" friendlyname="ADAU145x output" cell="Output6_3 ">
+                <Link pin="I_C808_A0_P1_in" dir="in" link="Link53" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X28" friendlyname="ADAU145x output" cell="Output6_4 ">
+                <Link pin="I_C810_A0_P1_in" dir="in" link="Link55" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X25" friendlyname="ADAU145x output" cell="Output6 ">
+                <Link pin="I_C804_A0_P1_in" dir="in" link="Link54" />
+            </Algorithm>
+            <Algorithm name="GPOAlg3001" friendlyname="General Purpose Output" cell="GPO1 ">
+                <Link pin="I_C7_A0_P1_in" dir="in" link="Link37" />
+            </Algorithm>
+            <Algorithm name="HWGainADAU145XAlg1" friendlyname="Gain (HW slew)" cell="Single 1 ">
+                <Link pin="I_C73_A0_P1_in" dir="in" link="Link54" />
+                <Link pin="I_C73_A0_P3_in" dir="in" link="Link52" />
+                <Link pin="I_C73_A0_P5_in" dir="in" link="Link53" />
+                <Link pin="I_C73_A0_P7_in" dir="in" link="Link55" />
+                <Link pin="I_C73_A0_P9_in" dir="in" link="Link50" />
+                <Link pin="I_C73_A0_P11_in" dir="in" link="Link49" />
+                <Link pin="I_C73_A0_P13_in" dir="in" link="Link57" />
+                <Link pin="I_C73_A0_P15_in" dir="in" link="Link56" />
+                <Link pin="O_C73_A0_P2_out" dir="out" link="Link19" />
+                <Link pin="O_C73_A0_P4_out" dir="out" link="Link18" />
+                <Link pin="O_C73_A0_P6_out" dir="out" link="Link17" />
+                <Link pin="O_C73_A0_P8_out" dir="out" link="Link16" />
+                <Link pin="O_C73_A0_P10_out" dir="out" link="Link0" />
+                <Link pin="O_C73_A0_P12_out" dir="out" link="Link1" />
+                <Link pin="O_C73_A0_P14_out" dir="out" link="Link2" />
+                <Link pin="O_C73_A0_P16_out" dir="out" link="Link3" />
+            </Algorithm>
+            <Algorithm name="SingleBandLevelDetS3001" friendlyname="Single Band" cell="Level '77 Ch 0 ">
+                <Link pin="I_C1651_A0_P1_in" dir="in" link="Link54" />
+            </Algorithm>
+            <Algorithm name="SingleBandLevelDetS3002" friendlyname="Single Band" cell="Level '77 Ch 1 ">
+                <Link pin="I_C1654_A0_P1_in" dir="in" link="Link52" />
+            </Algorithm>
+            <Algorithm name="SingleBandLevelDetS3003" friendlyname="Single Band" cell="Level '77 Ch 2 ">
+                <Link pin="I_C1657_A0_P1_in" dir="in" link="Link53" />
+            </Algorithm>
+            <Algorithm name="SingleBandLevelDetS3004" friendlyname="Single Band" cell="Level '77 Ch 3 ">
+                <Link pin="I_C1660_A0_P1_in" dir="in" link="Link55" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X30" friendlyname="ADAU145x output" cell="Output6_6 ">
+                <Link pin="I_C814_A0_P1_in" dir="in" link="Link49" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X32" friendlyname="ADAU145x output" cell="Output6_8 ">
+                <Link pin="I_C818_A0_P1_in" dir="in" link="Link56" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X31" friendlyname="ADAU145x output" cell="Output6_7 ">
+                <Link pin="I_C816_A0_P1_in" dir="in" link="Link57" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X29" friendlyname="ADAU145x output" cell="Output6_5 ">
+                <Link pin="I_C812_A0_P1_in" dir="in" link="Link50" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X18" friendlyname="ADAU145x output" cell="Output6_9 ">
+                <Link pin="I_C309_A0_P1_in" dir="in" link="Link66" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X20" friendlyname="ADAU145x output" cell="Output6_11 ">
+                <Link pin="I_C449_A0_P1_in" dir="in" link="Link66" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X21" friendlyname="ADAU145x output" cell="Output6_12 ">
+                <Link pin="I_C451_A0_P1_in" dir="in" link="Link66" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X22" friendlyname="ADAU145x output" cell="Output6_13 ">
+                <Link pin="I_C453_A0_P1_in" dir="in" link="Link66" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X19" friendlyname="ADAU145x output" cell="Output6_10 ">
+                <Link pin="I_C324_A0_P1_in" dir="in" link="Link67" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X23" friendlyname="ADAU145x output" cell="Output6_14 ">
+                <Link pin="I_C455_A0_P1_in" dir="in" link="Link67" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X24" friendlyname="ADAU145x output" cell="Output6_15 ">
+                <Link pin="I_C457_A0_P1_in" dir="in" link="Link67" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X26" friendlyname="ADAU145x output" cell="Output6_16 ">
+                <Link pin="I_C459_A0_P1_in" dir="in" link="Link67" />
+            </Algorithm>
+            <Algorithm name="DCinputmux_stereoHW_AlgSigma3008" friendlyname="Stereo Nx1 Hardware Slew" cell="MX1_8 ">
+                <Link pin="I_C933_A0_P3_in" dir="in" link="Link51" />
+                <Link pin="I_C933_A0_P4_in" dir="in" link="Link38" />
+                <Link pin="I_C933_A0_P5_in" dir="in" link="Link39" />
+                <Link pin="I_C933_A0_P6_in" dir="in" link="Link2" />
+                <Link pin="I_C933_A0_P7_in" dir="in" link="Link3" />
+                <Link pin="I_C933_A0_P8_in" dir="in" link="Link40" />
+                <Link pin="I_C933_A0_P9_in" dir="in" link="Link41" />
+                <Link pin="O_C933_A0_P1_out" dir="out" link="Link10" />
+                <Link pin="O_C933_A0_P2_out" dir="out" link="Link11" />
+            </Algorithm>
+            <Algorithm name="DCinputmux_stereoHW_AlgSigma3007" friendlyname="Stereo Nx1 Hardware Slew" cell="MX1_7 ">
+                <Link pin="I_C917_A0_P3_in" dir="in" link="Link51" />
+                <Link pin="I_C917_A0_P4_in" dir="in" link="Link38" />
+                <Link pin="I_C917_A0_P5_in" dir="in" link="Link39" />
+                <Link pin="I_C917_A0_P6_in" dir="in" link="Link0" />
+                <Link pin="I_C917_A0_P7_in" dir="in" link="Link1" />
+                <Link pin="I_C917_A0_P8_in" dir="in" link="Link42" />
+                <Link pin="I_C917_A0_P9_in" dir="in" link="Link43" />
+                <Link pin="O_C917_A0_P1_out" dir="out" link="Link8" />
+                <Link pin="O_C917_A0_P2_out" dir="out" link="Link9" />
+            </Algorithm>
+            <Algorithm name="DCinputmux_stereoHW_AlgSigma3009" friendlyname="Stereo Nx1 Hardware Slew" cell="MX2 ">
+                <Link pin="I_C1056_A0_P3_in" dir="in" link="Link48" />
+                <Link pin="I_C1056_A0_P4_in" dir="in" link="Link19" />
+                <Link pin="I_C1056_A0_P5_in" dir="in" link="Link18" />
+                <Link pin="I_C1056_A0_P6_in" dir="in" link="Link50" />
+                <Link pin="I_C1056_A0_P7_in" dir="in" link="Link49" />
+                <Link pin="O_C1056_A0_P1_out" dir="out" link="Link13" />
+                <Link pin="O_C1056_A0_P2_out" dir="out" link="Link12" />
+            </Algorithm>
+            <Algorithm name="DCinputmux_stereoHW_AlgSigma30010" friendlyname="Stereo Nx1 Hardware Slew" cell="MX3 ">
+                <Link pin="I_C1087_A0_P3_in" dir="in" link="Link48" />
+                <Link pin="I_C1087_A0_P4_in" dir="in" link="Link17" />
+                <Link pin="I_C1087_A0_P5_in" dir="in" link="Link16" />
+                <Link pin="I_C1087_A0_P6_in" dir="in" link="Link50" />
+                <Link pin="I_C1087_A0_P7_in" dir="in" link="Link49" />
+                <Link pin="O_C1087_A0_P1_out" dir="out" link="Link15" />
+                <Link pin="O_C1087_A0_P2_out" dir="out" link="Link14" />
+            </Algorithm>
+            <Algorithm name="DCinputmux_stereoHW_AlgSigma3001" friendlyname="Stereo Nx1 Hardware Slew" cell="MX1_9 ">
+                <Link pin="I_C1750_A0_P3_in" dir="in" link="Link51" />
+                <Link pin="I_C1750_A0_P4_in" dir="in" link="Link38" />
+                <Link pin="I_C1750_A0_P5_in" dir="in" link="Link39" />
+                <Link pin="I_C1750_A0_P6_in" dir="in" link="Link58" />
+                <Link pin="I_C1750_A0_P7_in" dir="in" link="Link59" />
+                <Link pin="O_C1750_A0_P1_out" dir="out" link="Link21" />
+                <Link pin="O_C1750_A0_P2_out" dir="out" link="Link20" />
+            </Algorithm>
+            <Algorithm name="DCinputmux_stereoHW_AlgSigma3002" friendlyname="Stereo Nx1 Hardware Slew" cell="MX1_10 ">
+                <Link pin="I_C1792_A0_P3_in" dir="in" link="Link51" />
+                <Link pin="I_C1792_A0_P4_in" dir="in" link="Link38" />
+                <Link pin="I_C1792_A0_P5_in" dir="in" link="Link39" />
+                <Link pin="I_C1792_A0_P6_in" dir="in" link="Link60" />
+                <Link pin="I_C1792_A0_P7_in" dir="in" link="Link61" />
+                <Link pin="O_C1792_A0_P1_out" dir="out" link="Link23" />
+                <Link pin="O_C1792_A0_P2_out" dir="out" link="Link22" />
+            </Algorithm>
+            <Algorithm name="DCinputmux_stereoHW_AlgSigma3003" friendlyname="Stereo Nx1 Hardware Slew" cell="MX1_11 ">
+                <Link pin="I_C1832_A0_P3_in" dir="in" link="Link51" />
+                <Link pin="I_C1832_A0_P4_in" dir="in" link="Link38" />
+                <Link pin="I_C1832_A0_P5_in" dir="in" link="Link39" />
+                <Link pin="I_C1832_A0_P6_in" dir="in" link="Link62" />
+                <Link pin="I_C1832_A0_P7_in" dir="in" link="Link63" />
+                <Link pin="O_C1832_A0_P1_out" dir="out" link="Link24" />
+                <Link pin="O_C1832_A0_P2_out" dir="out" link="Link25" />
+            </Algorithm>
+            <Algorithm name="DCinputmux_stereoHW_AlgSigma3004" friendlyname="Stereo Nx1 Hardware Slew" cell="MX1_12 ">
+                <Link pin="I_C1868_A0_P3_in" dir="in" link="Link51" />
+                <Link pin="I_C1868_A0_P4_in" dir="in" link="Link38" />
+                <Link pin="I_C1868_A0_P5_in" dir="in" link="Link39" />
+                <Link pin="I_C1868_A0_P6_in" dir="in" link="Link64" />
+                <Link pin="I_C1868_A0_P7_in" dir="in" link="Link65" />
+                <Link pin="O_C1868_A0_P1_out" dir="out" link="Link27" />
+                <Link pin="O_C1868_A0_P2_out" dir="out" link="Link26" />
+            </Algorithm>
+            <Algorithm name="SingleBandLevelDetS3008" friendlyname="Single Band" cell="Level '79 Ch 3 ">
+                <Link pin="I_C1726_A0_P1_in" dir="in" link="Link56" />
+            </Algorithm>
+            <Algorithm name="SingleBandLevelDetS3007" friendlyname="Single Band" cell="Level '79 Ch 2 ">
+                <Link pin="I_C1723_A0_P1_in" dir="in" link="Link57" />
+            </Algorithm>
+            <Algorithm name="SingleBandLevelDetS3006" friendlyname="Single Band" cell="Level '79 Ch 1 ">
+                <Link pin="I_C1720_A0_P1_in" dir="in" link="Link49" />
+            </Algorithm>
+            <Algorithm name="SingleBandLevelDetS3005" friendlyname="Single Band" cell="Level '79 Ch 0 ">
+                <Link pin="I_C1717_A0_P1_in" dir="in" link="Link50" />
+            </Algorithm>
+            <Algorithm name="DCinputmux_stereoHW_AlgSigma3006" friendlyname="Stereo Nx1 Hardware Slew" cell="MX1_6 ">
+                <Link pin="I_C879_A0_P3_in" dir="in" link="Link51" />
+                <Link pin="I_C879_A0_P4_in" dir="in" link="Link38" />
+                <Link pin="I_C879_A0_P5_in" dir="in" link="Link39" />
+                <Link pin="I_C879_A0_P6_in" dir="in" link="Link15" />
+                <Link pin="I_C879_A0_P7_in" dir="in" link="Link14" />
+                <Link pin="I_C879_A0_P8_in" dir="in" link="Link44" />
+                <Link pin="I_C879_A0_P9_in" dir="in" link="Link45" />
+                <Link pin="O_C879_A0_P1_out" dir="out" link="Link6" />
+                <Link pin="O_C879_A0_P2_out" dir="out" link="Link7" />
+            </Algorithm>
+            <Algorithm name="DCinputmux_stereoHW_AlgSigma3005" friendlyname="Stereo Nx1 Hardware Slew" cell="MX1_5 ">
+                <Link pin="I_C869_A0_P3_in" dir="in" link="Link51" />
+                <Link pin="I_C869_A0_P4_in" dir="in" link="Link38" />
+                <Link pin="I_C869_A0_P5_in" dir="in" link="Link39" />
+                <Link pin="I_C869_A0_P6_in" dir="in" link="Link13" />
+                <Link pin="I_C869_A0_P7_in" dir="in" link="Link12" />
+                <Link pin="I_C869_A0_P8_in" dir="in" link="Link46" />
+                <Link pin="I_C869_A0_P9_in" dir="in" link="Link47" />
+                <Link pin="O_C869_A0_P1_out" dir="out" link="Link4" />
+                <Link pin="O_C869_A0_P2_out" dir="out" link="Link5" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X9" friendlyname="ADAU145x output" cell="Output4_3 ">
+                <Link pin="I_C46_A0_P1_in" dir="in" link="Link8" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X10" friendlyname="ADAU145x output" cell="Output4_4 ">
+                <Link pin="I_C85_A0_P1_in" dir="in" link="Link9" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X11" friendlyname="ADAU145x output" cell="Output4_5 ">
+                <Link pin="I_C87_A0_P1_in" dir="in" link="Link10" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X12" friendlyname="ADAU145x output" cell="Output4_6 ">
+                <Link pin="I_C91_A0_P1_in" dir="in" link="Link11" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X7" friendlyname="ADAU145x output" cell="Output4_8 ">
+                <Link pin="I_C1744_A0_P1_in" dir="in" link="Link20" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X6" friendlyname="ADAU145x output" cell="Output4_7 ">
+                <Link pin="I_C1742_A0_P1_in" dir="in" link="Link21" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X13" friendlyname="ADAU145x output" cell="Output4_10 ">
+                <Link pin="I_C1790_A0_P1_in" dir="in" link="Link22" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X8" friendlyname="ADAU145x output" cell="Output4_9 ">
+                <Link pin="I_C1788_A0_P1_in" dir="in" link="Link23" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X14" friendlyname="ADAU145x output" cell="Output4_11 ">
+                <Link pin="I_C1828_A0_P1_in" dir="in" link="Link24" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X15" friendlyname="ADAU145x output" cell="Output4_12 ">
+                <Link pin="I_C1830_A0_P1_in" dir="in" link="Link25" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X17" friendlyname="ADAU145x output" cell="Output4_14 ">
+                <Link pin="I_C1866_A0_P1_in" dir="in" link="Link26" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X16" friendlyname="ADAU145x output" cell="Output4_13 ">
+                <Link pin="I_C1864_A0_P1_in" dir="in" link="Link27" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X2" friendlyname="ADAU145x output" cell="Output2 ">
+                <Link pin="I_C138_A0_P1_in" dir="in" link="Link4" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X1" friendlyname="ADAU145x output" cell="Output1 ">
+                <Link pin="I_C136_A0_P1_in" dir="in" link="Link5" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X3" friendlyname="ADAU145x output" cell="Output3 ">
+                <Link pin="I_C13_A0_P1_in" dir="in" link="Link6" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X4" friendlyname="ADAU145x output" cell="Output4 ">
+                <Link pin="I_C15_A0_P1_in" dir="in" link="Link7" />
+            </Algorithm>
+        </Schematic>
+    </IC>
+</NetList>

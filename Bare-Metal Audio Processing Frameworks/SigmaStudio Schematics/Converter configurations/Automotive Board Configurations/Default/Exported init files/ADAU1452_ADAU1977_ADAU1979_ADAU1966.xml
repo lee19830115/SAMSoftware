@@ -1,0 +1,2002 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- *
+ * This software is distributed in the hope that it will be useful,
+ * but is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+ * CONDITIONS OF ANY KIND, without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ * This software may only be used to program products purchased from
+ * Analog Devices for incorporation by you into audio products that
+ * are intended for resale to audio product end users. This software
+ * may not be distributed whole or in any part to third parties.
+ *
+ * Copyright ©2017 Analog Devices, Inc. All rights reserved.
+ */
+-->
+<!--SigmaStudio export XML file-->
+<Schematic>
+    <IC>
+        <Name>ADAU1452</Name>
+        <Register>
+            <Name>__SafeLoad_Module__data_SafeLoad</Name>
+            <Address>20</Address>
+            <Size>20</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>__SafeLoad_Module__address_SafeLoad</Name>
+            <Address>25</Address>
+            <Size>4</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>__SafeLoad_Module__num_SafeLoad</Name>
+            <Address>26</Address>
+            <Size>4</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SOFT_RESET</Name>
+            <Address>63632</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SOFT_RESET</Name>
+            <Address>63632</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.Reset Delay</Name>
+            <Address>0</Address>
+            <Size>2</Size>
+            <Data>0x00, 0xFF, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.HIBERNATE</Name>
+            <Address>62464</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.HIBERNATE</Name>
+            <Address>62464</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.Hibernate Delay</Name>
+            <Address>0</Address>
+            <Size>2</Size>
+            <Data>0x00, 0xFF, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.KILL_CORE</Name>
+            <Address>62467</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.KILL_CORE</Name>
+            <Address>62467</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.PLL_ENABLE</Name>
+            <Address>61443</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.PLL_CTRL1 Register</Name>
+            <Address>61441</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.PLL_CLK_SRC Register</Name>
+            <Address>61442</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.MCLK_OUT Register</Name>
+            <Address>61445</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x05, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.PLL_ENABLE Register</Name>
+            <Address>61443</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.PLL Lock Delay</Name>
+            <Address>0</Address>
+            <Size>2</Size>
+            <Data>0x00, 0xFF, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.POWER_ENABLE0 Register</Name>
+            <Address>61520</Address>
+            <Size>2</Size>
+            <Data>0x1F, 0xEE, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.POWER_ENABLE1 Register</Name>
+            <Address>61521</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x1F, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.PLL_WATCHDOG</Name>
+            <Address>61446</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.CLK_GEN3_SRC</Name>
+            <Address>61478</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.PANIC_PARITY_MASK</Name>
+            <Address>62498</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.DMIC_CTRL0</Name>
+            <Address>62816</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.DMIC_CTRL1</Name>
+            <Address>62817</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.MP6_MODE</Name>
+            <Address>62742</Address>
+            <Size>2</Size>
+            <Data>0x06, 0x07, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.BCLK_IN0_PIN</Name>
+            <Address>63360</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.BCLK_IN1_PIN</Name>
+            <Address>63361</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.BCLK_IN2_PIN</Name>
+            <Address>63362</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.BCLK_IN3_PIN</Name>
+            <Address>63363</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.BCLK_OUT0_PIN</Name>
+            <Address>63364</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.BCLK_OUT1_PIN</Name>
+            <Address>63365</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.BCLK_OUT2_PIN</Name>
+            <Address>63366</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.BCLK_OUT3_PIN</Name>
+            <Address>63367</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.LRCLK_IN0_PIN</Name>
+            <Address>63368</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.LRCLK_IN1_PIN</Name>
+            <Address>63369</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.LRCLK_IN2_PIN</Name>
+            <Address>63370</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.LRCLK_IN3_PIN</Name>
+            <Address>63371</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.LRCLK_OUT0_PIN</Name>
+            <Address>63372</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.LRCLK_OUT1_PIN</Name>
+            <Address>63373</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.LRCLK_OUT2_PIN</Name>
+            <Address>63374</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.LRCLK_OUT3_PIN</Name>
+            <Address>63375</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SDATA_IN0_PIN</Name>
+            <Address>63376</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SDATA_IN1_PIN</Name>
+            <Address>63377</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SDATA_IN2_PIN</Name>
+            <Address>63378</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SDATA_IN3_PIN</Name>
+            <Address>63379</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SDATA_OUT0_PIN</Name>
+            <Address>63380</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SDATA_OUT1_PIN</Name>
+            <Address>63381</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SDATA_OUT2_PIN</Name>
+            <Address>63382</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SDATA_OUT3_PIN</Name>
+            <Address>63383</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SPDIF_TX_PIN</Name>
+            <Address>63384</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SCLK_SCL_PIN</Name>
+            <Address>63385</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x18, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.MISO_SDA_PIN</Name>
+            <Address>63386</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.MOSI_ADDR1_PIN</Name>
+            <Address>63388</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SCLK_SCL_M_PIN</Name>
+            <Address>63389</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.MISO_SDA_M_PIN</Name>
+            <Address>63390</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.MP6_PIN</Name>
+            <Address>63393</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.MP7_PIN</Name>
+            <Address>63394</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.CLKOUT_PIN</Name>
+            <Address>63395</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SOUT_SOURCE0</Name>
+            <Address>61824</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SOUT_SOURCE1</Name>
+            <Address>61825</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SOUT_SOURCE2</Name>
+            <Address>61826</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SOUT_SOURCE3</Name>
+            <Address>61827</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SOUT_SOURCE4</Name>
+            <Address>61828</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SOUT_SOURCE5</Name>
+            <Address>61829</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SOUT_SOURCE6</Name>
+            <Address>61830</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SOUT_SOURCE7</Name>
+            <Address>61831</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SOUT_SOURCE8</Name>
+            <Address>61832</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SOUT_SOURCE9</Name>
+            <Address>61833</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SOUT_SOURCE10</Name>
+            <Address>61834</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SOUT_SOURCE11</Name>
+            <Address>61835</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SOUT_SOURCE12</Name>
+            <Address>61836</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SOUT_SOURCE13</Name>
+            <Address>61837</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SOUT_SOURCE14</Name>
+            <Address>61838</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SOUT_SOURCE15</Name>
+            <Address>61839</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SOUT_SOURCE16</Name>
+            <Address>61840</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SOUT_SOURCE17</Name>
+            <Address>61841</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SOUT_SOURCE18</Name>
+            <Address>61842</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SOUT_SOURCE19</Name>
+            <Address>61843</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SOUT_SOURCE20</Name>
+            <Address>61844</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SOUT_SOURCE21</Name>
+            <Address>61845</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SOUT_SOURCE22</Name>
+            <Address>61846</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SOUT_SOURCE23</Name>
+            <Address>61847</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SPDIFTX_INPUT</Name>
+            <Address>61888</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SERIAL_BYTE_0_0</Name>
+            <Address>61952</Address>
+            <Size>2</Size>
+            <Data>0x93, 0x8A, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SERIAL_BYTE_1_0</Name>
+            <Address>61956</Address>
+            <Size>2</Size>
+            <Data>0x93, 0x83, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SERIAL_BYTE_2_0</Name>
+            <Address>61960</Address>
+            <Size>2</Size>
+            <Data>0x91, 0x89, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SERIAL_BYTE_3_0</Name>
+            <Address>61964</Address>
+            <Size>2</Size>
+            <Data>0x91, 0x89, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SERIAL_BYTE_4_0</Name>
+            <Address>61968</Address>
+            <Size>2</Size>
+            <Data>0x93, 0x8A, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SERIAL_BYTE_5_0</Name>
+            <Address>61972</Address>
+            <Size>2</Size>
+            <Data>0x93, 0x8B, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SERIAL_BYTE_6_0</Name>
+            <Address>61976</Address>
+            <Size>2</Size>
+            <Data>0x91, 0x82, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.SERIAL_BYTE_7_0</Name>
+            <Address>61980</Address>
+            <Size>2</Size>
+            <Data>0x91, 0x82, </Data>
+        </Register>
+        <Program>
+            <Name>Program Data</Name>
+            <Address>49152</Address>
+            <Size>2884</Size>
+            <Data>0x00, 0x00, 0x00, 0x02, 0x0C, 0x00, 0xDC, 0xDC, 0x0D, 0x00, 0xFF, 0xD2, 0x0D, 0x00, 0xFF, 0xD0, 0x0D, 0x00, 0xF4, 0x50, 0x0D, 0x00, 0xF4, 0x00, 0xC0, 0x00, 0x23, 0x80, 0x80, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x23, 0x00, 0x80, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x23, 0xC0, 0x80, 0x00, 0x00, 0x10, 0xC0, 0x00, 0x22, 0x00, 0x80, 0x00, 0x00, 0x00, 0x08, 0x80, 0xDC, 0xE0, 0x0C, 0x00, 0xDC, 0xDC, 0xC0, 0x00, 0x28, 0x30, 0x80, 0x00, 0x00, 0x50, 0xC0, 0x00, 0x30, 0x00, 0x80, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x16, 0x06, 0x40, 0x50, 0x10, 0xC0, 0x00, 0x20, 0x00, 0x80, 0x00, 0x00, 0x29, 0x0D, 0x00, 0xFF, 0xC1, 0xC0, 0x00, 0x20, 0x00, 0x80, 0x00, 0x00, 0x01, 0x0D, 0x00, 0xF4, 0x62, 0xC0, 0x00, 0x20, 0x00, 0x80, 0x00, 0x00, 0x00, 0x0D, 0x00, 0xF4, 0x62, 0xC0, 0x00, 0x20, 0x00, 0x80, 0x00, 0x00, 0x02, 0x0D, 0x00, 0xFF, 0xD1, 0x00, 0x00, 0x00, 0x03, 0x0D, 0x00, 0xFF, 0xD2, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0x01, 0x00, 0x24, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x08, 0x9E, 0xDC, 0xE0, 0x08, 0x9C, 0x00, 0x10, 0x00, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x4F, 0x00, 0x14, 0x08, 0x8A, 0xDC, 0xE0, 0x0A, 0x21, 0x00, 0x1A, 0x00, 0x8C, 0x20, 0x00, 0x0A, 0xA5, 0x00, 0x19, 0x02, 0x09, 0x00, 0x40, 0xC0, 0x00, 0x28, 0x70, 0x80, 0x00, 0x60, 0x00, 0x00, 0x8C, 0x11, 0x91, 0x00, 0x00, 0x00, 0x23, 0x00, 0x00, 0x00, 0x00, 0x30, 0x00, 0xBC, 0xE9, 0x00, 0x00, 0xC2, 0xF1, 0x01, 0x00, 0x00, 0x3F, 0x06, 0x00, 0x40, 0x14, 0x36, 0x40, 0x50, 0x15, 0x26, 0x40, 0x40, 0x15, 0x09, 0x2A, 0x00, 0x1A, 0x00, 0x00, 0x00, 0x00, 0x0C, 0x00, 0xFC, 0x68, 0x06, 0x40, 0x10, 0x5E, 0x0C, 0x00, 0xFC, 0x69, 0x06, 0x40, 0x10, 0x7E, 0x0C, 0x00, 0xFC, 0x6A, 0x06, 0x40, 0x10, 0x9E, 0x0C, 0x00, 0xFC, 0x6B, 0x06, 0x40, 0x10, 0xBE, 0x0C, 0x00, 0x01, 0x14, 0x06, 0x40, 0x12, 0x3E, 0x0C, 0x00, 0x01, 0x15, 0x06, 0x40, 0x11, 0x8E, 0x0C, 0x00, 0xFC, 0x50, 0x06, 0x40, 0x13, 0x6E, 0x0C, 0x00, 0xFC, 0x51, 0x06, 0x40, 0x13, 0x7E, 0x0C, 0x00, 0xFC, 0x52, 0x06, 0x40, 0x13, 0x2E, 0x0C, 0x00, 0xFC, 0x53, 0x06, 0x40, 0x13, 0x3E, 0x0C, 0x00, 0xFC, 0x54, 0x06, 0x40, 0x12, 0x1E, 0x0C, 0x00, 0xFC, 0x55, 0x06, 0x40, 0x12, 0x2E, 0x0C, 0x00, 0xFC, 0x56, 0x06, 0x40, 0x11, 0xDE, 0x0C, 0x00, 0xFC, 0x57, 0x06, 0x40, 0x11, 0xEE, 0x0C, 0x00, 0xFC, 0x58, 0x06, 0x40, 0x12, 0x8E, 0x0C, 0x00, 0xFC, 0x59, 0x06, 0x40, 0x12, 0x9E, 0x0C, 0x00, 0xFC, 0x5A, 0x06, 0x40, 0x12, 0xAE, 0x0C, 0x00, 0xFC, 0x5B, 0x06, 0x40, 0x12, 0xBE, 0x0C, 0x00, 0xFC, 0x5C, 0x06, 0x40, 0x12, 0xCE, 0x0C, 0x00, 0xFC, 0x5D, 0x06, 0x40, 0x12, 0xDE, 0x0C, 0x00, 0xFC, 0x5E, 0x06, 0x40, 0x12, 0xEE, 0x0C, 0x00, 0xFC, 0x5F, 0x06, 0x40, 0x12, 0xFE, 0x08, 0x90, 0x00, 0x22, 0x0C, 0x70, 0x00, 0x1B, 0x0E, 0x3D, 0x00, 0x1E, 0x00, 0xF4, 0xAE, 0x0F, 0x0A, 0x25, 0xDC, 0xDC, 0x0A, 0xE1, 0x00, 0x1C, 0x00, 0x00, 0xDC, 0x70, 0x00, 0x00, 0xA4, 0xD8, 0x00, 0xD6, 0x21, 0x01, 0x00, 0x00, 0xE0, 0x29, 0x07, 0x05, 0x88, 0x08, 0x00, 0x84, 0x19, 0xB3, 0x00, 0x04, 0x45, 0x90, 0x00, 0x44, 0x2C, 0x30, 0x00, 0x04, 0x49, 0x28, 0x00, 0x94, 0x08, 0x87, 0x0B, 0xE1, 0x00, 0x1C, 0x05, 0x4D, 0x10, 0x0E, 0x08, 0x90, 0x00, 0x2C, 0x0C, 0x70, 0x00, 0x25, 0x0E, 0x3D, 0x00, 0x28, 0x00, 0xF4, 0xAE, 0x0F, 0x0A, 0x25, 0xDC, 0xDC, 0x0A, 0xE1, 0x00, 0x26, 0x00, 0x00, 0xDC, 0x70, 0x00, 0x00, 0xA4, 0xD8, 0x00, 0xD6, 0x21, 0x01, 0x00, 0x00, 0xE0, 0x29, 0x07, 0x05, 0x88, 0x08, 0x00, 0x84, 0x19, 0xB3, 0x00, 0x04, 0x45, 0x90, 0x00, 0x44, 0x2C, 0x30, 0x00, 0x04, 0x49, 0x28, 0x00, 0x94, 0x08, 0x87, 0x0B, 0xE1, 0x00, 0x26, 0x05, 0x4D, 0x10, 0x1E, 0x0C, 0x00, 0xFC, 0x60, 0x06, 0x40, 0x11, 0x0E, 0x0C, 0x00, 0xFC, 0x61, 0x06, 0x40, 0x10, 0xDE, 0x0C, 0x00, 0xFC, 0x62, 0x06, 0x40, 0x10, 0xEE, 0x0C, 0x00, 0xFC, 0x63, 0x06, 0x40, 0x10, 0xFE, 0x08, 0x90, 0x00, 0x36, 0x0C, 0x70, 0x00, 0x2F, 0x0E, 0x3D, 0x00, 0x32, 0x00, 0xF4, 0xAE, 0x0F, 0x0A, 0x25, 0xDC, 0xDC, 0x0A, 0xE1, 0x00, 0x30, 0x00, 0x00, 0xDC, 0x70, 0x00, 0x00, 0xA4, 0xD8, 0x00, 0xD6, 0x21, 0x01, 0x00, 0x00, 0xE0, 0x29, 0x07, 0x05, 0x88, 0x08, 0x00, 0x84, 0x19, 0xB3, 0x00, 0x04, 0x45, 0x90, 0x00, 0x44, 0x2C, 0x30, 0x00, 0x04, 0x49, 0x28, 0x00, 0x94, 0x08, 0x87, 0x0B, 0xE1, 0x00, 0x30, 0x05, 0x4D, 0x10, 0x2E, 0x08, 0x90, 0x00, 0x40, 0x0C, 0x70, 0x00, 0x39, 0x0E, 0x3D, 0x00, 0x3C, 0x00, 0xF4, 0xAE, 0x0F, 0x0A, 0x25, 0xDC, 0xDC, 0x0A, 0xE1, 0x00, 0x3A, 0x00, 0x00, 0xDC, 0x70, 0x00, 0x00, 0xA4, 0xD8, 0x00, 0xD6, 0x21, 0x01, 0x00, 0x00, 0xE0, 0x29, 0x07, 0x05, 0x88, 0x08, 0x00, 0x84, 0x19, 0xB3, 0x00, 0x04, 0x45, 0x90, 0x00, 0x44, 0x2C, 0x30, 0x00, 0x04, 0x49, 0x28, 0x00, 0x94, 0x08, 0x87, 0x0B, 0xE1, 0x00, 0x3A, 0x05, 0x4D, 0x10, 0x3E, 0x08, 0x90, 0x00, 0x4A, 0x0C, 0x70, 0x00, 0x43, 0x0E, 0x3D, 0x00, 0x46, 0x00, 0xF4, 0xAE, 0x0F, 0x0A, 0x25, 0xDC, 0xDC, 0x0A, 0xE1, 0x00, 0x44, 0x00, 0x00, 0xDC, 0x70, 0x00, 0x00, 0xA4, 0xD8, 0x00, 0xD6, 0x21, 0x01, 0x00, 0x00, 0xE0, 0x29, 0x07, 0x05, 0x88, 0x08, 0x00, 0x84, 0x19, 0xB3, 0x00, 0x04, 0x45, 0x90, 0x00, 0x44, 0x2C, 0x30, 0x00, 0x04, 0x49, 0x28, 0x00, 0x94, 0x08, 0x87, 0x0B, 0xE1, 0x00, 0x44, 0x05, 0x4D, 0x10, 0xCE, 0x0C, 0x34, 0x00, 0xD8, 0x00, 0x06, 0x00, 0x00, 0x06, 0x10, 0x10, 0x0E, 0x06, 0x10, 0x90, 0x1E, 0x00, 0x00, 0xBC, 0x68, 0x00, 0x1C, 0x80, 0x48, 0x0B, 0x21, 0x00, 0xD8, 0x05, 0x4C, 0x91, 0x9E, 0x05, 0x6C, 0x91, 0xAE, 0x0C, 0x34, 0x00, 0xDC, 0x00, 0x06, 0x00, 0x00, 0x06, 0x10, 0x10, 0x2E, 0x06, 0x10, 0x90, 0x3E, 0x00, 0x00, 0xBC, 0x68, 0x00, 0x1C, 0x80, 0x48, 0x0B, 0x21, 0x00, 0xDC, 0x05, 0x4C, 0x91, 0x6E, 0x05, 0x6C, 0x91, 0x7E, 0x0C, 0x20, 0x00, 0x4D, 0x00, 0x04, 0x40, 0x02, 0x05, 0x0C, 0x90, 0x4E, 0x05, 0x2C, 0x90, 0x5E, 0x00, 0x84, 0x11, 0x91, 0x00, 0x84, 0x00, 0x01, 0x0B, 0x61, 0x00, 0x4D, 0x05, 0x4C, 0x11, 0x2E, 0x0C, 0x20, 0x00, 0x50, 0x00, 0x04, 0x40, 0x02, 0x05, 0x0C, 0x90, 0x6E, 0x05, 0x2C, 0x90, 0x7E, 0x00, 0x84, 0x11, 0x91, 0x00, 0x84, 0x00, 0x01, 0x0B, 0x61, 0x00, 0x50, 0x05, 0x4C, 0x11, 0x3E, 0x0C, 0x20, 0x00, 0x53, 0x00, 0x04, 0x40, 0x02, 0x05, 0x0C, 0x90, 0x8E, 0x05, 0x2C, 0x90, 0x9E, 0x00, 0x84, 0x11, 0x91, 0x00, 0x84, 0x00, 0x01, 0x0B, 0x61, 0x00, 0x53, 0x05, 0x4C, 0x11, 0x4E, 0x0C, 0x20, 0x00, 0x56, 0x00, 0x04, 0x40, 0x02, 0x05, 0x0C, 0x90, 0xAE, 0x05, 0x2C, 0x90, 0xBE, 0x00, 0x84, 0x11, 0x91, 0x00, 0x84, 0x00, 0x01, 0x0B, 0x61, 0x00, 0x56, 0x05, 0x4C, 0x11, 0x5E, 0x0A, 0x29, 0xDC, 0x30, 0x05, 0x0C, 0x10, 0xCE, 0x0E, 0x05, 0x00, 0x59, 0x00, 0x88, 0x10, 0x01, 0x00, 0x20, 0x01, 0x50, 0x00, 0x88, 0x10, 0x09, 0x00, 0x20, 0x03, 0x50, 0x05, 0x4D, 0x11, 0x1E, 0x06, 0x00, 0x10, 0xDE, 0x0D, 0x00, 0xFC, 0xD1, 0x06, 0x00, 0x10, 0xEE, 0x0D, 0x00, 0xFC, 0xD2, 0x06, 0x00, 0x10, 0xFE, 0x0D, 0x00, 0xFC, 0xD3, 0x06, 0x00, 0x11, 0x0E, 0x0D, 0x00, 0xFC, 0xD0, 0x06, 0x20, 0x91, 0x1E, 0x0D, 0x82, 0xF5, 0x26, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x80, 0x00, 0x5D, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x84, 0x00, 0x5C, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x94, 0x00, 0x5B, 0x06, 0x10, 0x11, 0x0E, 0x06, 0x10, 0x90, 0xDE, 0x0C, 0x01, 0xFD, 0xA0, 0x00, 0x10, 0x00, 0x08, 0x06, 0x10, 0x10, 0xEE, 0x06, 0x10, 0x90, 0xFE, 0x05, 0x4C, 0x12, 0x4E, 0x05, 0x6C, 0x12, 0x5E, 0x00, 0x10, 0x00, 0x08, 0x06, 0x10, 0x11, 0x2E, 0x06, 0x10, 0x91, 0x3E, 0x05, 0x4C, 0x12, 0x6E, 0x05, 0x6C, 0x12, 0x7E, 0x00, 0x10, 0x00, 0x08, 0x06, 0x10, 0x11, 0x4E, 0x06, 0x10, 0x91, 0x5E, 0x05, 0x4C, 0x11, 0xFE, 0x05, 0x6C, 0x12, 0x0E, 0x00, 0x10, 0x00, 0x08, 0x0D, 0x00, 0x00, 0x5B, 0x05, 0x4C, 0x11, 0xBE, 0x05, 0x6C, 0x11, 0xCE, 0x06, 0x00, 0x11, 0x0E, 0x06, 0x40, 0x14, 0x8E, 0x0D, 0x00, 0x00, 0x6A, 0x00, 0x04, 0x00, 0x00, 0x0A, 0xE1, 0x00, 0x61, 0x0C, 0x40, 0x00, 0x5E, 0x00, 0x1C, 0x80, 0x40, 0x00, 0x84, 0x08, 0x81, 0x00, 0x8C, 0x18, 0x89, 0x0B, 0xE1, 0x00, 0x61, 0x0B, 0xA1, 0x00, 0x68, 0x00, 0xD7, 0xED, 0x08, 0x0B, 0xB5, 0x00, 0x69, 0x06, 0x00, 0x10, 0xDE, 0x06, 0x40, 0x14, 0x9E, 0x0D, 0x00, 0x00, 0x78, 0x00, 0x04, 0x00, 0x00, 0x0A, 0xE1, 0x00, 0x6F, 0x0C, 0x40, 0x00, 0x6C, 0x00, 0x1C, 0x80, 0x40, 0x00, 0x84, 0x08, 0x81, 0x00, 0x8C, 0x18, 0x89, 0x0B, 0xE1, 0x00, 0x6F, 0x0B, 0xA1, 0x00, 0x76, 0x00, 0xD7, 0xED, 0x08, 0x0B, 0xB5, 0x00, 0x77, 0x06, 0x00, 0x10, 0xEE, 0x06, 0x40, 0x14, 0xAE, 0x0D, 0x00, 0x00, 0x86, 0x00, 0x04, 0x00, 0x00, 0x0A, 0xE1, 0x00, 0x7D, 0x0C, 0x40, 0x00, 0x7A, 0x00, 0x1C, 0x80, 0x40, 0x00, 0x84, 0x08, 0x81, 0x00, 0x8C, 0x18, 0x89, 0x0B, 0xE1, 0x00, 0x7D, 0x0B, 0xA1, 0x00, 0x84, 0x00, 0xD7, 0xED, 0x08, 0x0B, 0xB5, 0x00, 0x85, 0x06, 0x00, 0x10, 0xFE, 0x06, 0x40, 0x14, 0xBE, 0x0D, 0x00, 0x00, 0x94, 0x00, 0x04, 0x00, 0x00, 0x0A, 0xE1, 0x00, 0x8B, 0x0C, 0x40, 0x00, 0x88, 0x00, 0x1C, 0x80, 0x40, 0x00, 0x84, 0x08, 0x81, 0x00, 0x8C, 0x18, 0x89, 0x0B, 0xE1, 0x00, 0x8B, 0x0B, 0xA1, 0x00, 0x92, 0x00, 0xD7, 0xED, 0x08, 0x0B, 0xB5, 0x00, 0x93, 0x06, 0x00, 0x11, 0x3E, 0x0D, 0x00, 0xFC, 0xD5, 0x06, 0x00, 0x11, 0x5E, 0x0D, 0x00, 0xFC, 0xD7, 0x06, 0x00, 0x11, 0x4E, 0x0D, 0x00, 0xFC, 0xD6, 0x06, 0x00, 0x11, 0x2E, 0x0D, 0x00, 0xFC, 0xD4, 0x06, 0x00, 0x11, 0x6E, 0x0D, 0x00, 0xFC, 0xD8, 0x06, 0x00, 0x11, 0x6E, 0x0D, 0x00, 0xFC, 0xDA, 0x06, 0x00, 0x11, 0x6E, 0x0D, 0x00, 0xFC, 0xDC, 0x06, 0x00, 0x11, 0x6E, 0x0D, 0x00, 0xFC, 0xDE, 0x06, 0x00, 0x11, 0x7E, 0x0D, 0x00, 0xFC, 0xD9, 0x06, 0x00, 0x11, 0x7E, 0x0D, 0x00, 0xFC, 0xDB, 0x06, 0x00, 0x11, 0x7E, 0x0D, 0x00, 0xFC, 0xDD, 0x06, 0x00, 0x11, 0x7E, 0x0D, 0x00, 0xFC, 0xDF, 0xC0, 0x00, 0x09, 0x10, 0x80, 0xE0, 0xDC, 0xDC, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0F, 0x00, 0xE0, 0x05, 0x0C, 0x11, 0x8E, 0x00, 0x00, 0xD8, 0x40, 0x0C, 0x00, 0xDC, 0x30, 0x06, 0x40, 0x08, 0x00, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x80, 0x00, 0x96, 0xC0, 0x00, 0x09, 0x8F, 0x8D, 0x84, 0x00, 0xE0, 0xC0, 0x00, 0x09, 0x8F, 0x8D, 0x94, 0x00, 0xE3, 0x06, 0x00, 0x11, 0x9E, 0x06, 0x00, 0x91, 0xBE, 0x06, 0x01, 0x11, 0xDE, 0x0C, 0x71, 0xFD, 0xA0, 0x00, 0x06, 0x40, 0x00, 0x06, 0x00, 0x11, 0xAE, 0x06, 0x00, 0x91, 0xCE, 0x06, 0x01, 0x11, 0xEE, 0x00, 0x06, 0x60, 0x00, 0x0D, 0x60, 0x00, 0xE3, 0x05, 0x4C, 0x13, 0xAE, 0x05, 0x6C, 0x13, 0xBE, 0xC0, 0x00, 0x09, 0x10, 0x80, 0xE7, 0xDC, 0xDC, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0F, 0x00, 0xE7, 0x05, 0x0C, 0x11, 0x8E, 0x00, 0x00, 0xD8, 0x40, 0x0C, 0x00, 0xDC, 0x30, 0x06, 0x40, 0x08, 0x00, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x80, 0x00, 0x97, 0xC0, 0x00, 0x09, 0x8F, 0x8D, 0x84, 0x00, 0xE7, 0xC0, 0x00, 0x09, 0x8F, 0x8D, 0x94, 0x00, 0xEA, 0x06, 0x00, 0x11, 0x9E, 0x06, 0x00, 0x91, 0xFE, 0x06, 0x01, 0x12, 0x1E, 0x0C, 0x71, 0xFD, 0xA0, 0x00, 0x06, 0x40, 0x00, 0x06, 0x00, 0x11, 0xAE, 0x06, 0x00, 0x92, 0x0E, 0x06, 0x01, 0x12, 0x2E, 0x00, 0x06, 0x60, 0x00, 0x0D, 0x60, 0x00, 0xEA, 0x05, 0x4C, 0x13, 0x8E, 0x05, 0x6C, 0x13, 0x9E, 0xC0, 0x00, 0x08, 0x90, 0x80, 0xEE, 0xDC, 0xDC, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0F, 0x00, 0xEE, 0x05, 0x0C, 0x12, 0x3E, 0x00, 0x00, 0xD8, 0x40, 0x0C, 0x00, 0xDC, 0x30, 0x06, 0x40, 0x08, 0x00, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x80, 0x00, 0x98, 0xC0, 0x00, 0x08, 0x8F, 0x8D, 0x84, 0x00, 0xEE, 0xC0, 0x00, 0x08, 0x8F, 0x8D, 0x94, 0x00, 0xF0, 0x06, 0x00, 0x12, 0x4E, 0x06, 0x02, 0x12, 0x5E, 0x06, 0x00, 0x91, 0x2E, 0x06, 0x02, 0x91, 0x3E, 0x0C, 0x51, 0xFD, 0xA0, 0xE0, 0x00, 0x00, 0x03, 0x88, 0x00, 0x00, 0x00, 0x0D, 0x50, 0x00, 0xF0, 0x05, 0x4C, 0x13, 0x4E, 0x05, 0x6C, 0x13, 0x5E, 0xC0, 0x00, 0x08, 0x90, 0x80, 0xF2, 0xDC, 0xDC, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0F, 0x00, 0xF2, 0x05, 0x0C, 0x12, 0x3E, 0x00, 0x00, 0xD8, 0x40, 0x0C, 0x00, 0xDC, 0x30, 0x06, 0x40, 0x08, 0x00, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x80, 0x00, 0x99, 0xC0, 0x00, 0x08, 0x8F, 0x8D, 0x84, 0x00, 0xF2, 0xC0, 0x00, 0x08, 0x8F, 0x8D, 0x94, 0x00, 0xF4, 0x06, 0x00, 0x12, 0x6E, 0x06, 0x02, 0x12, 0x7E, 0x06, 0x00, 0x91, 0x2E, 0x06, 0x02, 0x91, 0x3E, 0x0C, 0x51, 0xFD, 0xA0, 0xE0, 0x00, 0x00, 0x03, 0x88, 0x00, 0x00, 0x00, 0x0D, 0x50, 0x00, 0xF4, 0x05, 0x4C, 0x13, 0x0E, 0x05, 0x6C, 0x13, 0x1E, 0xC0, 0x00, 0x08, 0x90, 0x80, 0xF6, 0xDC, 0xDC, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0F, 0x00, 0xF6, 0x05, 0x0C, 0x11, 0x8E, 0x00, 0x00, 0xD8, 0x40, 0x0C, 0x00, 0xDC, 0x30, 0x06, 0x40, 0x08, 0x00, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x80, 0x00, 0x9A, 0xC0, 0x00, 0x08, 0x8F, 0x8D, 0x84, 0x00, 0xF6, 0xC0, 0x00, 0x08, 0x8F, 0x8D, 0x94, 0x00, 0xF8, 0x06, 0x00, 0x11, 0x9E, 0x06, 0x02, 0x11, 0xAE, 0x06, 0x00, 0x92, 0x8E, 0x06, 0x02, 0x92, 0x9E, 0x0C, 0x51, 0xFD, 0xA0, 0xE0, 0x00, 0x00, 0x03, 0x88, 0x00, 0x00, 0x00, 0x0D, 0x50, 0x00, 0xF8, 0x05, 0x4C, 0x13, 0xDE, 0x05, 0x6C, 0x13, 0xCE, 0xC0, 0x00, 0x08, 0x90, 0x80, 0xFA, 0xDC, 0xDC, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0F, 0x00, 0xFA, 0x05, 0x0C, 0x11, 0x8E, 0x00, 0x00, 0xD8, 0x40, 0x0C, 0x00, 0xDC, 0x30, 0x06, 0x40, 0x08, 0x00, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x80, 0x00, 0x9B, 0xC0, 0x00, 0x08, 0x8F, 0x8D, 0x84, 0x00, 0xFA, 0xC0, 0x00, 0x08, 0x8F, 0x8D, 0x94, 0x00, 0xFC, 0x06, 0x00, 0x11, 0x9E, 0x06, 0x02, 0x11, 0xAE, 0x06, 0x00, 0x92, 0xAE, 0x06, 0x02, 0x92, 0xBE, 0x0C, 0x51, 0xFD, 0xA0, 0xE0, 0x00, 0x00, 0x03, 0x88, 0x00, 0x00, 0x00, 0x0D, 0x50, 0x00, 0xFC, 0x05, 0x4C, 0x13, 0xFE, 0x05, 0x6C, 0x13, 0xEE, 0xC0, 0x00, 0x08, 0x90, 0x80, 0xFE, 0xDC, 0xDC, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0F, 0x00, 0xFE, 0x05, 0x0C, 0x11, 0x8E, 0x00, 0x00, 0xD8, 0x40, 0x0C, 0x00, 0xDC, 0x30, 0x06, 0x40, 0x08, 0x00, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x80, 0x00, 0x9C, 0xC0, 0x00, 0x08, 0x8F, 0x8D, 0x84, 0x00, 0xFE, 0xC0, 0x00, 0x08, 0x8F, 0x8D, 0x94, 0x01, 0x00, 0x06, 0x00, 0x11, 0x9E, 0x06, 0x02, 0x11, 0xAE, 0x06, 0x00, 0x92, 0xCE, 0x06, 0x02, 0x92, 0xDE, 0x0C, 0x51, 0xFD, 0xA0, 0xE0, 0x00, 0x00, 0x03, 0x88, 0x00, 0x00, 0x00, 0x0D, 0x50, 0x01, 0x00, 0x05, 0x4C, 0x14, 0x0E, 0x05, 0x6C, 0x14, 0x1E, 0xC0, 0x00, 0x08, 0x90, 0x81, 0x02, 0xDC, 0xDC, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0F, 0x01, 0x02, 0x05, 0x0C, 0x11, 0x8E, 0x00, 0x00, 0xD8, 0x40, 0x0C, 0x00, 0xDC, 0x30, 0x06, 0x40, 0x08, 0x00, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x80, 0x00, 0x9D, 0xC0, 0x00, 0x08, 0x8F, 0x8D, 0x84, 0x01, 0x02, 0xC0, 0x00, 0x08, 0x8F, 0x8D, 0x94, 0x01, 0x04, 0x06, 0x00, 0x11, 0x9E, 0x06, 0x02, 0x11, 0xAE, 0x06, 0x00, 0x92, 0xEE, 0x06, 0x02, 0x92, 0xFE, 0x0C, 0x51, 0xFD, 0xA0, 0xE0, 0x00, 0x00, 0x03, 0x88, 0x00, 0x00, 0x00, 0x0D, 0x50, 0x01, 0x04, 0x05, 0x4C, 0x14, 0x3E, 0x05, 0x6C, 0x14, 0x2E, 0x06, 0x00, 0x11, 0x5E, 0x06, 0x40, 0x14, 0xCE, 0x0D, 0x00, 0x00, 0xAA, 0x00, 0x04, 0x00, 0x00, 0x0A, 0xE1, 0x00, 0xA1, 0x0C, 0x40, 0x00, 0x9E, 0x00, 0x1C, 0x80, 0x40, 0x00, 0x84, 0x08, 0x81, 0x00, 0x8C, 0x18, 0x89, 0x0B, 0xE1, 0x00, 0xA1, 0x0B, 0xA1, 0x00, 0xA8, 0x00, 0xD7, 0xED, 0x08, 0x0B, 0xB5, 0x00, 0xA9, 0x06, 0x00, 0x11, 0x4E, 0x06, 0x40, 0x14, 0xDE, 0x0D, 0x00, 0x00, 0xB8, 0x00, 0x04, 0x00, 0x00, 0x0A, 0xE1, 0x00, 0xAF, 0x0C, 0x40, 0x00, 0xAC, 0x00, 0x1C, 0x80, 0x40, 0x00, 0x84, 0x08, 0x81, 0x00, 0x8C, 0x18, 0x89, 0x0B, 0xE1, 0x00, 0xAF, 0x0B, 0xA1, 0x00, 0xB6, 0x00, 0xD7, 0xED, 0x08, 0x0B, 0xB5, 0x00, 0xB7, 0x06, 0x00, 0x11, 0x3E, 0x06, 0x40, 0x14, 0xEE, 0x0D, 0x00, 0x00, 0xC6, 0x00, 0x04, 0x00, 0x00, 0x0A, 0xE1, 0x00, 0xBD, 0x0C, 0x40, 0x00, 0xBA, 0x00, 0x1C, 0x80, 0x40, 0x00, 0x84, 0x08, 0x81, 0x00, 0x8C, 0x18, 0x89, 0x0B, 0xE1, 0x00, 0xBD, 0x0B, 0xA1, 0x00, 0xC4, 0x00, 0xD7, 0xED, 0x08, 0x0B, 0xB5, 0x00, 0xC5, 0x06, 0x00, 0x11, 0x2E, 0x06, 0x40, 0x14, 0xFE, 0x0D, 0x00, 0x00, 0xD4, 0x00, 0x04, 0x00, 0x00, 0x0A, 0xE1, 0x00, 0xCB, 0x0C, 0x40, 0x00, 0xC8, 0x00, 0x1C, 0x80, 0x40, 0x00, 0x84, 0x08, 0x81, 0x00, 0x8C, 0x18, 0x89, 0x0B, 0xE1, 0x00, 0xCB, 0x0B, 0xA1, 0x00, 0xD2, 0x00, 0xD7, 0xED, 0x08, 0x0B, 0xB5, 0x00, 0xD3, 0xC0, 0x00, 0x09, 0x10, 0x81, 0x06, 0xDC, 0xDC, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0F, 0x01, 0x06, 0x05, 0x0C, 0x11, 0x8E, 0x00, 0x00, 0xD8, 0x40, 0x0C, 0x00, 0xDC, 0x30, 0x06, 0x40, 0x08, 0x00, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x80, 0x00, 0xD6, 0xC0, 0x00, 0x09, 0x8F, 0x8D, 0x84, 0x01, 0x06, 0xC0, 0x00, 0x09, 0x8F, 0x8D, 0x94, 0x01, 0x09, 0x06, 0x00, 0x11, 0x9E, 0x06, 0x00, 0x93, 0x0E, 0x06, 0x01, 0x13, 0x2E, 0x0C, 0x71, 0xFD, 0xA0, 0x00, 0x06, 0x40, 0x00, 0x06, 0x00, 0x11, 0xAE, 0x06, 0x00, 0x93, 0x1E, 0x06, 0x01, 0x13, 0x3E, 0x00, 0x06, 0x60, 0x00, 0x0D, 0x60, 0x01, 0x09, 0x05, 0x4C, 0x14, 0x6E, 0x05, 0x6C, 0x14, 0x7E, 0xC0, 0x00, 0x09, 0x10, 0x81, 0x0D, 0xDC, 0xDC, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0F, 0x01, 0x0D, 0x05, 0x0C, 0x11, 0x8E, 0x00, 0x00, 0xD8, 0x40, 0x0C, 0x00, 0xDC, 0x30, 0x06, 0x40, 0x08, 0x00, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x80, 0x00, 0xD7, 0xC0, 0x00, 0x09, 0x8F, 0x8D, 0x84, 0x01, 0x0D, 0xC0, 0x00, 0x09, 0x8F, 0x8D, 0x94, 0x01, 0x10, 0x06, 0x00, 0x11, 0x9E, 0x06, 0x00, 0x93, 0x4E, 0x06, 0x01, 0x13, 0x6E, 0x0C, 0x71, 0xFD, 0xA0, 0x00, 0x06, 0x40, 0x00, 0x06, 0x00, 0x11, 0xAE, 0x06, 0x00, 0x93, 0x5E, 0x06, 0x01, 0x13, 0x7E, 0x00, 0x06, 0x60, 0x00, 0x0D, 0x60, 0x01, 0x10, 0x05, 0x4C, 0x14, 0x4E, 0x05, 0x6C, 0x14, 0x5E, 0x06, 0x00, 0x13, 0x8E, 0x0D, 0x00, 0xFC, 0xE4, 0x06, 0x00, 0x13, 0x9E, 0x0D, 0x00, 0xFC, 0xE5, 0x06, 0x00, 0x13, 0xAE, 0x0D, 0x00, 0xFC, 0xE6, 0x06, 0x00, 0x13, 0xBE, 0x0D, 0x00, 0xFC, 0xE7, 0x06, 0x00, 0x13, 0xCE, 0x0D, 0x00, 0xFC, 0xE9, 0x06, 0x00, 0x13, 0xDE, 0x0D, 0x00, 0xFC, 0xE8, 0x06, 0x00, 0x13, 0xEE, 0x0D, 0x00, 0xFC, 0xEB, 0x06, 0x00, 0x13, 0xFE, 0x0D, 0x00, 0xFC, 0xEA, 0x06, 0x00, 0x14, 0x0E, 0x0D, 0x00, 0xFC, 0xEC, 0x06, 0x00, 0x14, 0x1E, 0x0D, 0x00, 0xFC, 0xED, 0x06, 0x00, 0x14, 0x2E, 0x0D, 0x00, 0xFC, 0xEF, 0x06, 0x00, 0x14, 0x3E, 0x0D, 0x00, 0xFC, 0xEE, 0x06, 0x00, 0x14, 0x4E, 0x0D, 0x00, 0xFC, 0xE0, 0x06, 0x00, 0x14, 0x5E, 0x0D, 0x00, 0xFC, 0xE1, 0x06, 0x00, 0x14, 0x6E, 0x0D, 0x00, 0xFC, 0xE2, 0x06, 0x00, 0x14, 0x7E, 0x0D, 0x00, 0xFC, 0xE3, 0x08, 0x9C, 0x00, 0x10, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2E, 0x01, 0x00, 0x00, 0x00, 0x00, 0x09, 0x9C, 0x00, 0x10, 0x00, 0x00, 0x00, 0x02, 0x0C, 0x10, 0xF4, 0x60, 0x02, 0xC2, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+        </Program>
+        <Register>
+            <Name>DM0 Data</Name>
+            <Address>0</Address>
+            <Size>1128</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x50, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0x00, 0x02, 0x2A, 0x53, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x00, 0x00, 0x08, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0x00, 0x02, 0x2A, 0x53, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x00, 0x00, 0x08, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0x00, 0x0C, 0xCF, 0x88, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x00, 0x00, 0x08, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0x00, 0x0C, 0xD4, 0xFE, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x00, 0x00, 0x08, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0x00, 0x00, 0x02, 0xBB, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x00, 0x00, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xFF, 0xF9, 0x72, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xFF, 0xF9, 0x72, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xFF, 0xF9, 0x72, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xFF, 0xF9, 0x72, 0x00, 0x00, 0x00, 0x00, 0x00, 0x1E, 0x84, 0x80, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x20, 0x8A, 0x00, 0x00, 0x9D, 0x61, 0x00, 0x00, 0x01, 0xE0, 0x00, 0x00, 0x0E, 0x39, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x9D, 0x61, 0x00, 0x00, 0x01, 0xE0, 0x00, 0x00, 0x0E, 0x39, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x9D, 0x61, 0x00, 0x00, 0x01, 0xE0, 0x00, 0x00, 0x0E, 0x39, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x9D, 0x61, 0x00, 0x00, 0x01, 0xE0, 0x00, 0x00, 0x0E, 0x39, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x20, 0x8A, 0x00, 0x00, 0x20, 0x8A, 0x00, 0x00, 0x20, 0x8A, 0x00, 0x00, 0x20, 0x8A, 0x00, 0x00, 0x20, 0x8A, 0x00, 0x00, 0x20, 0x8A, 0x00, 0x00, 0x20, 0x8A, 0x00, 0x00, 0x20, 0x8A, 0x00, 0x00, 0x9D, 0x61, 0x00, 0x00, 0x01, 0xE0, 0x00, 0x00, 0x0E, 0x39, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x9D, 0x61, 0x00, 0x00, 0x01, 0xE0, 0x00, 0x00, 0x0E, 0x39, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x9D, 0x61, 0x00, 0x00, 0x01, 0xE0, 0x00, 0x00, 0x0E, 0x39, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x9D, 0x61, 0x00, 0x00, 0x01, 0xE0, 0x00, 0x00, 0x0E, 0x39, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x20, 0x8A, 0x00, 0x00, 0x20, 0x8A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x80, 0x4D, 0xCE, 0x00, 0xFF, 0xE4, 0xB3, 0x00, 0x00, 0x1B, 0x4D, 0x00, 0x00, 0x00, 0x00, 0x00, 0xCB, 0x59, 0x18, 0x00, 0xFF, 0xE4, 0xB3, 0x00, 0x00, 0x1B, 0x4D, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>DM1 Data</Name>
+            <Address>24656</Address>
+            <Size>16</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.KILL_CORE</Name>
+            <Address>62467</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.START_ADDRESS</Name>
+            <Address>62468</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.START_PULSE</Name>
+            <Address>62465</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.START_CORE</Name>
+            <Address>62466</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.START_CORE</Name>
+            <Address>62466</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.Start Delay</Name>
+            <Address>0</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1452.HIBERNATE</Name>
+            <Address>62464</Address>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Module>
+            <CellName>Single 1</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <Description>Gain (HW slew)( 1 ) : Gain[ 0 ],slewType[ Exponential2 ];</Description>
+                <ModuleParameter>
+                    <Name>HWGainADAU145XAlg1target</Name>
+                    <Type>Int32</Type>
+                    <Address>92</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>HWGainADAU145XAlg1slew_mode</Name>
+                    <Type>Int32</Type>
+                    <Address>93</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>MX1_5</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <Description>Stereo Nx1 Hardware Slew( 1 ) : slewType[ Exponential2 ];</Description>
+                <ModuleParameter>
+                    <Name>DCinputmux_stereoHW_AlgSigma3005slew_mode</Name>
+                    <Type>Int32</Type>
+                    <Address>215</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>DCinputmux_stereoHW_AlgSigma3005slew_mode</Name>
+                    <Type>Int32</Type>
+                    <Address>215</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>DCinputmux_stereoHW_AlgSigma3005slew_mode</Name>
+                    <Type>Int32</Type>
+                    <Address>215</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>MX1_6</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <Description>Stereo Nx1 Hardware Slew( 1 ) : slewType[ Exponential2 ];</Description>
+                <ModuleParameter>
+                    <Name>DCinputmux_stereoHW_AlgSigma3006slew_mode</Name>
+                    <Type>Int32</Type>
+                    <Address>214</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>DCinputmux_stereoHW_AlgSigma3006slew_mode</Name>
+                    <Type>Int32</Type>
+                    <Address>214</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>DCinputmux_stereoHW_AlgSigma3006slew_mode</Name>
+                    <Type>Int32</Type>
+                    <Address>214</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>MX1_7</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <Description>Stereo Nx1 Hardware Slew( 1 ) : slewType[ Exponential2 ];</Description>
+                <ModuleParameter>
+                    <Name>DCinputmux_stereoHW_AlgSigma3007slew_mode</Name>
+                    <Type>Int32</Type>
+                    <Address>151</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>DCinputmux_stereoHW_AlgSigma3007slew_mode</Name>
+                    <Type>Int32</Type>
+                    <Address>151</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>DCinputmux_stereoHW_AlgSigma3007slew_mode</Name>
+                    <Type>Int32</Type>
+                    <Address>151</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>MX1_8</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <Description>Stereo Nx1 Hardware Slew( 1 ) : slewType[ Exponential2 ];</Description>
+                <ModuleParameter>
+                    <Name>DCinputmux_stereoHW_AlgSigma3008slew_mode</Name>
+                    <Type>Int32</Type>
+                    <Address>150</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>DCinputmux_stereoHW_AlgSigma3008slew_mode</Name>
+                    <Type>Int32</Type>
+                    <Address>150</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>DCinputmux_stereoHW_AlgSigma3008slew_mode</Name>
+                    <Type>Int32</Type>
+                    <Address>150</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>MX2</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <Description>Stereo Nx1 Hardware Slew( 1 ) : slewType[ Exponential2 ];</Description>
+                <ModuleParameter>
+                    <Name>DCinputmux_stereoHW_AlgSigma3009slew_mode</Name>
+                    <Type>Int32</Type>
+                    <Address>152</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>DCinputmux_stereoHW_AlgSigma3009slew_mode</Name>
+                    <Type>Int32</Type>
+                    <Address>152</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>DC2_2</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <Description>DC-Input( 1 ) : FormatL[ 0 ],FormatM[ 32 ],DC[ 0 ];</Description>
+                <ModuleParameter>
+                    <Name>DCInpAlg145X3value</Name>
+                    <Type>Int32</Type>
+                    <Address>276</Address>
+                    <Value>0</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>MX3</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <Description>Stereo Nx1 Hardware Slew( 1 ) : slewType[ Exponential2 ];</Description>
+                <ModuleParameter>
+                    <Name>DCinputmux_stereoHW_AlgSigma30010slew_mode</Name>
+                    <Type>Int32</Type>
+                    <Address>153</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>DCinputmux_stereoHW_AlgSigma30010slew_mode</Name>
+                    <Type>Int32</Type>
+                    <Address>153</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>DC2</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <Description>DC-Input( 1 ) : FormatL[ 0 ],FormatM[ 32 ],DC[ 2 ];</Description>
+                <ModuleParameter>
+                    <Name>DCInpAlg145X2value</Name>
+                    <Type>Int32</Type>
+                    <Address>277</Address>
+                    <Value>2</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x02, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Single 3</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <Description>Gain (RC optimized SW slew)( 1 ) : Gain[ -6 ];</Description>
+                <ModuleParameter>
+                    <Name>SWGainOptADAU145XAlg1target</Name>
+                    <Type>Int32</Type>
+                    <Address>217</Address>
+                    <Value>0.501187205314636</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x80, 0x4D, 0xCE, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SWGainOptADAU145XAlg1alpha</Name>
+                    <Type>HexArray</Type>
+                    <Address>218</Address>
+                    <Size>8</Size>
+                    <Data>0x00, 0xFF, 0xE4, 0xB3, 0x00, 0x00, 0x1B, 0x4D, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Level '77 Ch 0</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <Description>Single Band( 1 ) : MaxRange[ 0 ],MinRange[ -96 ],IsLinear[ False ],Units[ dB ],Inv_Display[ False ];</Description>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3001TCONST</Name>
+                    <Type>Int32</Type>
+                    <Address>94</Address>
+                    <Value>0.00240141153335571</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x9D, 0x61, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3001hold</Name>
+                    <Type>Int32</Type>
+                    <Address>95</Address>
+                    <Value>480</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x01, 0xE0, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3001decay</Name>
+                    <Type>Int32</Type>
+                    <Address>96</Address>
+                    <Value>0.000217020511627197</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x0E, 0x39, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Level '77 Ch 1</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <Description>Single Band( 1 ) : MaxRange[ 0 ],MinRange[ -96 ],IsLinear[ False ],Units[ dB ],Inv_Display[ False ];</Description>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3002TCONST</Name>
+                    <Type>Int32</Type>
+                    <Address>108</Address>
+                    <Value>0.00240141153335571</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x9D, 0x61, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3002hold</Name>
+                    <Type>Int32</Type>
+                    <Address>109</Address>
+                    <Value>480</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x01, 0xE0, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3002decay</Name>
+                    <Type>Int32</Type>
+                    <Address>110</Address>
+                    <Value>0.000217020511627197</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x0E, 0x39, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Level '77 Ch 2</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <Description>Single Band( 1 ) : MaxRange[ 0 ],MinRange[ -96 ],IsLinear[ False ],Units[ dB ],Inv_Display[ False ];</Description>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3003TCONST</Name>
+                    <Type>Int32</Type>
+                    <Address>122</Address>
+                    <Value>0.00240141153335571</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x9D, 0x61, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3003hold</Name>
+                    <Type>Int32</Type>
+                    <Address>123</Address>
+                    <Value>480</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x01, 0xE0, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3003decay</Name>
+                    <Type>Int32</Type>
+                    <Address>124</Address>
+                    <Value>0.000217020511627197</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x0E, 0x39, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Level '77 Ch 3</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <Description>Single Band( 1 ) : MaxRange[ 0 ],MinRange[ -96 ],IsLinear[ False ],Units[ dB ],Inv_Display[ False ];</Description>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3004TCONST</Name>
+                    <Type>Int32</Type>
+                    <Address>136</Address>
+                    <Value>0.00240141153335571</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x9D, 0x61, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3004hold</Name>
+                    <Type>Int32</Type>
+                    <Address>137</Address>
+                    <Value>480</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x01, 0xE0, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3004decay</Name>
+                    <Type>Int32</Type>
+                    <Address>138</Address>
+                    <Value>0.000217020511627197</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x0E, 0x39, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Level '79 Ch 0</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <Description>Single Band( 1 ) : MaxRange[ 0 ],MinRange[ -96 ],IsLinear[ False ],Units[ dB ],Inv_Display[ False ];</Description>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3005TCONST</Name>
+                    <Type>Int32</Type>
+                    <Address>200</Address>
+                    <Value>0.00240141153335571</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x9D, 0x61, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3005hold</Name>
+                    <Type>Int32</Type>
+                    <Address>201</Address>
+                    <Value>480</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x01, 0xE0, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3005decay</Name>
+                    <Type>Int32</Type>
+                    <Address>202</Address>
+                    <Value>0.000217020511627197</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x0E, 0x39, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Level '79 Ch 1</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <Description>Single Band( 1 ) : MaxRange[ 0 ],MinRange[ -96 ],IsLinear[ False ],Units[ dB ],Inv_Display[ False ];</Description>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3006TCONST</Name>
+                    <Type>Int32</Type>
+                    <Address>186</Address>
+                    <Value>0.00240141153335571</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x9D, 0x61, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3006hold</Name>
+                    <Type>Int32</Type>
+                    <Address>187</Address>
+                    <Value>480</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x01, 0xE0, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3006decay</Name>
+                    <Type>Int32</Type>
+                    <Address>188</Address>
+                    <Value>0.000217020511627197</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x0E, 0x39, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Level '79 Ch 2</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <Description>Single Band( 1 ) : MaxRange[ 0 ],MinRange[ -96 ],IsLinear[ False ],Units[ dB ],Inv_Display[ False ];</Description>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3007TCONST</Name>
+                    <Type>Int32</Type>
+                    <Address>172</Address>
+                    <Value>0.00240141153335571</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x9D, 0x61, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3007hold</Name>
+                    <Type>Int32</Type>
+                    <Address>173</Address>
+                    <Value>480</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x01, 0xE0, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3007decay</Name>
+                    <Type>Int32</Type>
+                    <Address>174</Address>
+                    <Value>0.000217020511627197</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x0E, 0x39, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Level '79 Ch 3</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <Description>Single Band( 1 ) : MaxRange[ 0 ],MinRange[ -96 ],IsLinear[ False ],Units[ dB ],Inv_Display[ False ];</Description>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3008TCONST</Name>
+                    <Type>Int32</Type>
+                    <Address>158</Address>
+                    <Value>0.00240141153335571</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x9D, 0x61, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3008hold</Name>
+                    <Type>Int32</Type>
+                    <Address>159</Address>
+                    <Value>480</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x01, 0xE0, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3008decay</Name>
+                    <Type>Int32</Type>
+                    <Address>160</Address>
+                    <Value>0.000217020511627197</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x0E, 0x39, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>MX1_9</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <Description>Stereo Nx1 Hardware Slew( 1 ) : slewType[ Exponential2 ];</Description>
+                <ModuleParameter>
+                    <Name>DCinputmux_stereoHW_AlgSigma3001slew_mode</Name>
+                    <Type>Int32</Type>
+                    <Address>154</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>DCinputmux_stereoHW_AlgSigma3001slew_mode</Name>
+                    <Type>Int32</Type>
+                    <Address>154</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>MX1_10</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <Description>Stereo Nx1 Hardware Slew( 1 ) : slewType[ Exponential2 ];</Description>
+                <ModuleParameter>
+                    <Name>DCinputmux_stereoHW_AlgSigma3002slew_mode</Name>
+                    <Type>Int32</Type>
+                    <Address>155</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>DCinputmux_stereoHW_AlgSigma3002slew_mode</Name>
+                    <Type>Int32</Type>
+                    <Address>155</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>MX1_11</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <Description>Stereo Nx1 Hardware Slew( 1 ) : slewType[ Exponential2 ];</Description>
+                <ModuleParameter>
+                    <Name>DCinputmux_stereoHW_AlgSigma3003slew_mode</Name>
+                    <Type>Int32</Type>
+                    <Address>156</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>DCinputmux_stereoHW_AlgSigma3003slew_mode</Name>
+                    <Type>Int32</Type>
+                    <Address>156</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>MX1_12</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <Description>Stereo Nx1 Hardware Slew( 1 ) : slewType[ Exponential2 ];</Description>
+                <ModuleParameter>
+                    <Name>DCinputmux_stereoHW_AlgSigma3004slew_mode</Name>
+                    <Type>Int32</Type>
+                    <Address>157</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>DCinputmux_stereoHW_AlgSigma3004slew_mode</Name>
+                    <Type>Int32</Type>
+                    <Address>157</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Tone2</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <Description>Sin Tone with Initial Phase( 2 ) : Frequency[ 203 ];Phase[ 0 ],OnOff[ True ],Gain[ 0 ];</Description>
+                <ModuleParameter>
+                    <Name>SinePhaseGainAlgS3001gain_0</Name>
+                    <Type>HexArray</Type>
+                    <Address>27</Address>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SinePhaseGainAlgS3001index_fp_hi_0</Name>
+                    <Type>HexArray</Type>
+                    <Address>28</Address>
+                    <Size>8</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SinePhaseGainAlgS3001inc</Name>
+                    <Type>Int32</Type>
+                    <Address>32</Address>
+                    <Value>0.00845831632614136</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x02, 0x2A, 0x53, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Tone2_2</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <Description>Sin Tone with Initial Phase( 2 ) : Frequency[ 203 ];Phase[ 0 ],OnOff[ True ],Gain[ 0 ];</Description>
+                <ModuleParameter>
+                    <Name>SinePhaseGainAlgS3002gain_0</Name>
+                    <Type>HexArray</Type>
+                    <Address>37</Address>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SinePhaseGainAlgS3002index_fp_hi_0</Name>
+                    <Type>HexArray</Type>
+                    <Address>38</Address>
+                    <Size>8</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SinePhaseGainAlgS3002inc</Name>
+                    <Type>Int32</Type>
+                    <Address>42</Address>
+                    <Value>0.00845831632614136</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x02, 0x2A, 0x53, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Single 3_2</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <Description>Gain (RC optimized SW slew)( 1 ) : Gain[ -2 ];</Description>
+                <ModuleParameter>
+                    <Name>SWGainOptADAU145XAlg2target</Name>
+                    <Type>Int32</Type>
+                    <Address>221</Address>
+                    <Value>0.794328212738037</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xCB, 0x59, 0x18, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SWGainOptADAU145XAlg2alpha</Name>
+                    <Type>HexArray</Type>
+                    <Address>222</Address>
+                    <Size>8</Size>
+                    <Data>0x00, 0xFF, 0xE4, 0xB3, 0x00, 0x00, 0x1B, 0x4D, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Tone2_3</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <Description>Sin Tone with Initial Phase( 2 ) : Frequency[ 1201 ];Phase[ 0 ],OnOff[ True ],Gain[ 0 ];</Description>
+                <ModuleParameter>
+                    <Name>SinePhaseGainAlgS3003gain_0</Name>
+                    <Type>HexArray</Type>
+                    <Address>47</Address>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SinePhaseGainAlgS3003index_fp_hi_0</Name>
+                    <Type>HexArray</Type>
+                    <Address>48</Address>
+                    <Size>8</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SinePhaseGainAlgS3003inc</Name>
+                    <Type>Int32</Type>
+                    <Address>52</Address>
+                    <Value>0.050041675567627</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x0C, 0xCF, 0x88, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Tone2_4</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <Description>Sin Tone with Initial Phase( 2 ) : Frequency[ 1203 ];Phase[ 0 ],OnOff[ True ],Gain[ 0 ];</Description>
+                <ModuleParameter>
+                    <Name>SinePhaseGainAlgS3004gain_0</Name>
+                    <Type>HexArray</Type>
+                    <Address>57</Address>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SinePhaseGainAlgS3004index_fp_hi_0</Name>
+                    <Type>HexArray</Type>
+                    <Address>58</Address>
+                    <Size>8</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SinePhaseGainAlgS3004inc</Name>
+                    <Type>Int32</Type>
+                    <Address>62</Address>
+                    <Value>0.0501250028610229</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x0C, 0xD4, 0xFE, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>DCB2</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <Description>DC Blocking</Description>
+                <ModuleParameter>
+                    <Name>DCBlockAlgDblPrecS3002pole</Name>
+                    <Type>Int32</Type>
+                    <Address>79</Address>
+                    <Value>0.999899983406067</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFF, 0xF9, 0x72, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>DCB2_2</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <Description>DC Blocking</Description>
+                <ModuleParameter>
+                    <Name>DCBlockAlgDblPrecS3003pole</Name>
+                    <Type>Int32</Type>
+                    <Address>82</Address>
+                    <Value>0.999899983406067</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFF, 0xF9, 0x72, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>DCB2_3</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <Description>DC Blocking</Description>
+                <ModuleParameter>
+                    <Name>DCBlockAlgDblPrecS3004pole</Name>
+                    <Type>Int32</Type>
+                    <Address>85</Address>
+                    <Value>0.999899983406067</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFF, 0xF9, 0x72, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>DCB2_4</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <Description>DC Blocking</Description>
+                <ModuleParameter>
+                    <Name>DCBlockAlgDblPrecS3005pole</Name>
+                    <Type>Int32</Type>
+                    <Address>88</Address>
+                    <Value>0.999899983406067</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFF, 0xF9, 0x72, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Tone2_5</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <Description>Sin Tone with Initial Phase( 2 ) : Frequency[ 1 ];Phase[ 0 ],OnOff[ True ],Gain[ 0 ];</Description>
+                <ModuleParameter>
+                    <Name>SinePhaseGainAlgS3005gain_0</Name>
+                    <Type>HexArray</Type>
+                    <Address>67</Address>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SinePhaseGainAlgS3005index_fp_hi_0</Name>
+                    <Type>HexArray</Type>
+                    <Address>68</Address>
+                    <Size>8</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SinePhaseGainAlgS3005inc</Name>
+                    <Type>Int32</Type>
+                    <Address>72</Address>
+                    <Value>4.1663646697998E-05</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x02, 0xBB, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Tol1</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <Description>Tolerance( 1 ) : Level1[ 0 ],Level2[ 2000000 ];</Description>
+                <ModuleParameter>
+                    <Name>TolAlgS3001lower0</Name>
+                    <Type>HexArray</Type>
+                    <Address>89</Address>
+                    <Size>8</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, 0x00, 0x1E, 0x84, 0x80, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+    </IC>
+    <IC>
+        <Name>ADAU1966</Name>
+        <Register>
+            <Name>ADAU1966.DAC_CTRL0</Name>
+            <Address>6</Address>
+            <Size>1</Size>
+            <Data>0x19, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1966.PLL_CLK_CTRL0 Register.PLL_CLK_CTRL0</Name>
+            <Address>0</Address>
+            <Size>1</Size>
+            <Data>0x31, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1966.PLL_CLK_CTRL1 Register.PLL_CLK_CTRL1</Name>
+            <Address>1</Address>
+            <Size>1</Size>
+            <Data>0x3E, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1966.PDN_THRMSENS_CTRL_1 Register.PDN_THRMSENS_CTRL_1</Name>
+            <Address>2</Address>
+            <Size>1</Size>
+            <Data>0xA0, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1966.PDN_CTRL2 Register.PDN_CTRL2</Name>
+            <Address>3</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1966.PDN_CTRL3 Register.PDN_CTRL3</Name>
+            <Address>4</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1966.DAC_CTRL0 Register.DAC_CTRL0</Name>
+            <Address>6</Address>
+            <Size>1</Size>
+            <Data>0x19, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1966.DAC_CTRL1 Register.DAC_CTRL1</Name>
+            <Address>7</Address>
+            <Size>1</Size>
+            <Data>0x20, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1966.DAC_CTRL2 Register.DAC_CTRL2</Name>
+            <Address>8</Address>
+            <Size>1</Size>
+            <Data>0x02, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1966.DAC_MUTE1 Register.DAC_MUTE1</Name>
+            <Address>9</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1966.DAC_MUTE2 Register.DAC_MUTE2</Name>
+            <Address>10</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1966.DACMSTR_VOL Register.DACMSTR_VOL</Name>
+            <Address>11</Address>
+            <Size>1</Size>
+            <Data>0x03, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1966.DAC01_VOL Register.DAC01_VOL</Name>
+            <Address>12</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1966.DAC02_VOL Register.DAC02_VOL</Name>
+            <Address>13</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1966.DAC03_VOL Register.DAC03_VOL</Name>
+            <Address>14</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1966.DAC04_VOL Register.DAC04_VOL</Name>
+            <Address>15</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1966.DAC05_VOL Register.DAC05_VOL</Name>
+            <Address>16</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1966.DAC06_VOL Register.DAC06_VOL</Name>
+            <Address>17</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1966.DAC07_VOL Register.DAC07_VOL</Name>
+            <Address>18</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1966.DAC08_VOL Register.DAC08_VOL</Name>
+            <Address>19</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1966.DAC09_VOL Register.DAC09_VOL</Name>
+            <Address>20</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1966.DAC10_VOL Register.DAC10_VOL</Name>
+            <Address>21</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1966.DAC11_VOL Register.DAC11_VOL</Name>
+            <Address>22</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1966.DAC12_VOL Register.DAC12_VOL</Name>
+            <Address>23</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1966.DAC13_VOL Register.DAC13_VOL</Name>
+            <Address>24</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1966.DAC14_VOL Register.DAC14_VOL</Name>
+            <Address>25</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1966.DAC15_VOL Register.DAC15_VOL</Name>
+            <Address>26</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1966.DAC16_VOL Register.DAC16_VOL</Name>
+            <Address>27</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1966.CM_SEL_PAD_STRGTH Register.CM_SEL_PAD_STRGTH</Name>
+            <Address>28</Address>
+            <Size>1</Size>
+            <Data>0x02, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1966.DAC_POWER1 Register.DAC_POWER1</Name>
+            <Address>29</Address>
+            <Size>1</Size>
+            <Data>0xAA, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1966.DAC_POWER2 Register.DAC_POWER2</Name>
+            <Address>30</Address>
+            <Size>1</Size>
+            <Data>0xAA, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1966.DAC_POWER3 Register.DAC_POWER3</Name>
+            <Address>31</Address>
+            <Size>1</Size>
+            <Data>0xAA, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1966.DAC_POWER4 Register.DAC_POWER4</Name>
+            <Address>32</Address>
+            <Size>1</Size>
+            <Data>0xAA, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1966.DAC_CTRL0</Name>
+            <Address>6</Address>
+            <Size>1</Size>
+            <Data>0x18, </Data>
+        </Register>
+    </IC>
+    <IC>
+        <Name>ADAU1977</Name>
+        <Register>
+            <Name>ADAU1977.M_POWER Register.M_POWER</Name>
+            <Address>0</Address>
+            <Size>1</Size>
+            <Data>0x01, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1977.PLL_CONTROL Register.PLL_CONTROL</Name>
+            <Address>1</Address>
+            <Size>1</Size>
+            <Data>0xC1, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1977.BST_CONTROL Register.BST_CONTROL</Name>
+            <Address>2</Address>
+            <Size>1</Size>
+            <Data>0xCA, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1977.MB_BST_CONTROL Register.MB_BST_CONTROL</Name>
+            <Address>3</Address>
+            <Size>1</Size>
+            <Data>0x7D, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1977.BLOCK_POWER_SAI Register.BLOCK_POWER_SAI</Name>
+            <Address>4</Address>
+            <Size>1</Size>
+            <Data>0xFF, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1977.SAI_CTRL0 Register.SAI_CTRL0</Name>
+            <Address>5</Address>
+            <Size>1</Size>
+            <Data>0x52, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1977.SAI_CTRL1 Register.SAI_CTRL1</Name>
+            <Address>6</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1977.SAI_CMAP12 Register.SAI_CMAP12</Name>
+            <Address>7</Address>
+            <Size>1</Size>
+            <Data>0x10, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1977.SAI_CMAP34 Register.SAI_CMAP34</Name>
+            <Address>8</Address>
+            <Size>1</Size>
+            <Data>0x32, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1977.SAI_OVERTEMP Register.SAI_OVERTEMP</Name>
+            <Address>9</Address>
+            <Size>1</Size>
+            <Data>0xF0, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1977.POSTADC_GAIN1 Register.POSTADC_GAIN1</Name>
+            <Address>10</Address>
+            <Size>1</Size>
+            <Data>0xA0, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1977.POSTADC_GAIN2 Register.POSTADC_GAIN2</Name>
+            <Address>11</Address>
+            <Size>1</Size>
+            <Data>0xA0, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1977.POSTADC_GAIN3 Register.POSTADC_GAIN3</Name>
+            <Address>12</Address>
+            <Size>1</Size>
+            <Data>0xA0, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1977.POSTADC_GAIN4 Register.POSTADC_GAIN4</Name>
+            <Address>13</Address>
+            <Size>1</Size>
+            <Data>0xA0, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1977.MISC_CONTROL Register.MISC_CONTROL</Name>
+            <Address>14</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1977.ADC_BIAS_CONTROL Register.ADC_BIAS_CONTROL</Name>
+            <Address>15</Address>
+            <Size>1</Size>
+            <Data>0xFF, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1977.DIAG_CONTROL Register.DIAG_CONTROL</Name>
+            <Address>16</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1977.DIAG_STATUS1 Register.DIAG_STATUS1</Name>
+            <Address>17</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1977.DIAG_STATUS2 Register.DIAG_STATUS2</Name>
+            <Address>18</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1977.DIAG_STATUS3 Register.DIAG_STATUS3</Name>
+            <Address>19</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1977.DIAG_STATUS4 Register.DIAG_STATUS4</Name>
+            <Address>20</Address>
+            <Size>1</Size>
+            <Data>0x08, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1977.DIAG_IRQ1 Register.DIAG_IRQ1</Name>
+            <Address>21</Address>
+            <Size>1</Size>
+            <Data>0x20, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1977.DIAG_IRQ2 Register.DIAG_IRQ2</Name>
+            <Address>22</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1977.DIAG_ADJUST1 Register.DIAG_ADJUST1</Name>
+            <Address>23</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1977.DIAG_ADJUST2 Register.DIAG_ADJUST2</Name>
+            <Address>24</Address>
+            <Size>1</Size>
+            <Data>0x20, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1977.ASDC_CLIP Register.ASDC_CLIP</Name>
+            <Address>25</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1977.DC_HPF_CAL Register.DC_HPF_CAL</Name>
+            <Address>26</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1977.TWEAK1 Register.TWEAK1</Name>
+            <Address>27</Address>
+            <Size>1</Size>
+            <Data>0xF0, </Data>
+        </Register>
+    </IC>
+    <IC>
+        <Name>ADAU1979</Name>
+        <Register>
+            <Name>ADAU1979.M_POWER Register.M_POWER</Name>
+            <Address>0</Address>
+            <Size>1</Size>
+            <Data>0x01, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1979.PLL_CONTROL Register.PLL_CONTROL</Name>
+            <Address>1</Address>
+            <Size>1</Size>
+            <Data>0xC1, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1979.BST_CONTROL Register.BST_CONTROL</Name>
+            <Address>2</Address>
+            <Size>1</Size>
+            <Data>0xCA, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1979.MB_BST_CONTROL Register.MB_BST_CONTROL</Name>
+            <Address>3</Address>
+            <Size>1</Size>
+            <Data>0x7D, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1979.BLOCK_POWER_SAI Register.BLOCK_POWER_SAI</Name>
+            <Address>4</Address>
+            <Size>1</Size>
+            <Data>0xFF, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1979.SAI_CTRL0 Register.SAI_CTRL0</Name>
+            <Address>5</Address>
+            <Size>1</Size>
+            <Data>0x52, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1979.SAI_CTRL1 Register.SAI_CTRL1</Name>
+            <Address>6</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1979.SAI_CMAP12 Register.SAI_CMAP12</Name>
+            <Address>7</Address>
+            <Size>1</Size>
+            <Data>0x10, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1979.SAI_CMAP34 Register.SAI_CMAP34</Name>
+            <Address>8</Address>
+            <Size>1</Size>
+            <Data>0x32, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1979.SAI_OVERTEMP Register.SAI_OVERTEMP</Name>
+            <Address>9</Address>
+            <Size>1</Size>
+            <Data>0xF0, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1979.POSTADC_GAIN1 Register.POSTADC_GAIN1</Name>
+            <Address>10</Address>
+            <Size>1</Size>
+            <Data>0xA0, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1979.POSTADC_GAIN2 Register.POSTADC_GAIN2</Name>
+            <Address>11</Address>
+            <Size>1</Size>
+            <Data>0xA0, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1979.POSTADC_GAIN3 Register.POSTADC_GAIN3</Name>
+            <Address>12</Address>
+            <Size>1</Size>
+            <Data>0xA0, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1979.POSTADC_GAIN4 Register.POSTADC_GAIN4</Name>
+            <Address>13</Address>
+            <Size>1</Size>
+            <Data>0xA0, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1979.MISC_CONTROL Register.MISC_CONTROL</Name>
+            <Address>14</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1979.ADC_BIAS_CONTROL Register.ADC_BIAS_CONTROL</Name>
+            <Address>15</Address>
+            <Size>1</Size>
+            <Data>0xFF, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1979.DIAG_CONTROL Register.DIAG_CONTROL</Name>
+            <Address>16</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1979.DIAG_STATUS1 Register.DIAG_STATUS1</Name>
+            <Address>17</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1979.DIAG_STATUS2 Register.DIAG_STATUS2</Name>
+            <Address>18</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1979.DIAG_STATUS3 Register.DIAG_STATUS3</Name>
+            <Address>19</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1979.DIAG_STATUS4 Register.DIAG_STATUS4</Name>
+            <Address>20</Address>
+            <Size>1</Size>
+            <Data>0x08, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1979.DIAG_IRQ1 Register.DIAG_IRQ1</Name>
+            <Address>21</Address>
+            <Size>1</Size>
+            <Data>0x20, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1979.DIAG_IRQ2 Register.DIAG_IRQ2</Name>
+            <Address>22</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1979.DIAG_ADJUST1 Register.DIAG_ADJUST1</Name>
+            <Address>23</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1979.DIAG_ADJUST2 Register.DIAG_ADJUST2</Name>
+            <Address>24</Address>
+            <Size>1</Size>
+            <Data>0x20, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1979.ASDC_CLIP Register.ASDC_CLIP</Name>
+            <Address>25</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1979.DC_HPF_CAL Register.DC_HPF_CAL</Name>
+            <Address>26</Address>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>ADAU1979.TWEAK1 Register.TWEAK1</Name>
+            <Address>27</Address>
+            <Size>1</Size>
+            <Data>0xF0, </Data>
+        </Register>
+    </IC>
+</Schematic>
