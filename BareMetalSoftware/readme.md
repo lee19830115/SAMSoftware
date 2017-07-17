@@ -36,7 +36,7 @@ When SHARC Core 1 is processing the current frame of audio, SHARC Core 2 is proc
 
 Below is a set of approaches that are used within the bare metal frameworks
 
-### DMA-based Audio I/O Framework ###
+### DMA-Based Audio I/O Framework ###
 
 SHARC processors have a powerful DMA subsystem that is capable of moving data between peripherals and memory in the background.  In addition, this DMA engine can also de-interleave data arriving from multi-channel ADCs (and interleave data transmitted to multichannel DACs) so that the data from each channel shows up contiguously in an array.  
 
@@ -44,7 +44,7 @@ When a new block of audio is ready, the DMA engine generates an interrupt.  The 
 
 The audio block size is defined as a preprocessor variable (AUDIO_BLOCK_SIZE) within the project settings.  It is currently set at 32 words which provides a nice mix of low latency and efficient processing.  To change this, right click on each of the three projects, and select properties.  From here, C/C++ Build->Settings.  Then select the Compiler (SHARC and ARM) and C++ Compiler (ARM) and select the Preprocessor sub-item.  Here, you will see AUDIO_BLOCK_SIZE=32 defined.
 
-### Very simple multi-core memory sharing ###
+### Very Simple Multi-Core Memory Sharing ###
 
 While CCES comes with an implementation of the MC-API multi-core communications API, it is complex.  Instead, these bare metal projects share a common C structure that is placed in shared L2 memory that all three cores can read and write to.  Most importantly, the method described here does not require modification of the default LDF file nor does it require altering any memory protection settings.
 
@@ -138,7 +138,7 @@ void processAudio( void ) {
 }
 ```
 
-### Simple Drivers ###
+### "Simple Drivers" ###
 
 This project relies on a simple, easy-to-learn and size-efficient device driver model referred to as "simple drivers". One of the goals of this project was to demonstrate how to use lighter-weight or other types of drivers (rather than the heftier system services drivers that ship with CCES).
 
@@ -179,6 +179,8 @@ There are essentially three different hardware configurations that these bare me
 Because the DIY daughter board relies on the ADAU1761 on the SAM board, it uses the same bare metal framework.  The automotive framework does not support the ADAU1761 presently.
 
 ### SAM / SAM + DIY Configuration ###
+
+When using the DIY (instrument level 1/4" jacks + MIDI) with the SAM board, make sure to define the preprocessor variable, `__DIY_DAUGHTER_BOARD__` in the project settings for each core.  This will ensure the right ADAU1761 driver gets loaded and will enable the PBs and LEDs on the daughter board.
 
  1) the SAM board connects to audio peripherals via DAI0 while the Ez-Kit connects to audio peripherals via DAI1.  Rather than using SPORTS 4 and 5 for audio RX / TX as the Ez-kit does, the SAM framework relies on SPORTs 2 and 3 (since they connect to DAI0).
  2) the 24.57MHz master audio clock on the SAM board does not connect to a DAI pin.  However, the ADAU1761 generates a 12.28MHz bit clock which is used as a master clock. This 12.28MHz master clock is routed through PCG_A just like the 24.57MHz clock is with the Ez-Kit.  PCG_A is configured by the SS framework to divide by a different value so the downstream functionality with PCG_C is still the same.
