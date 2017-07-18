@@ -1,0 +1,8 @@
+"src/ADAU1761_DMA_Framework.doj"
+"src/Main_SHARC1.doj"
+"src/Startup_Code_Core1.doj"
+"src/multicore_audio_simple/multicore_audio_simple.doj"
+"system/adi_initialize.doj"
+"system/startup_ldf/app_IVT.doj"
+"system/startup_ldf/app_heaptab.doj"
+"system/startup_ldf/app_startup.doj"

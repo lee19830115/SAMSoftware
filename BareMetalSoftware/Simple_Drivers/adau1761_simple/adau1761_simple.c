@@ -17,6 +17,31 @@ to the terms of the associated Analog Devices License Agreement.
 #include "adau1761_simple.h"
 #include <stdio.h>
 
+/* This block of #if's may seem complex.  We're basically dealing with a few things.
+ * 1. The SHARC SigmaStudio framework prefers to communicate with ADCs / DACs
+ *    using a "pulse" mode TDM (a clock-wide pulse at the front of an audio frame).
+ *    The ADAU1761 requires a cap on the FS line to support this mode properly.
+ *    This cap is not on the early boards and as a result, there are some small
+ *    pops / clicks in the audio stream.  Thus, we only use TDM mode when we're
+ *    using SigmaStudio for SHARC.  In this SigmaStudio build, there is a pre-processor
+ *    variable called __ADSPSC589_SAM__ so when this variable is defined, we use
+ *    the TDM version of the driver.  And when it isn't defined, we use a version
+ *    of the driver that relies on I2S/50% TDM framing.  In this mode, there are
+ *    no pops / clicks in the audio stream.  This mode is used by the bare-metal
+ *    frameworks.
+ *
+ * 2. The DIY board relies on a different set of inputs and outputs on the
+ *    ADAU1761.  Thus it requires a different configuration file.
+ *
+ * Finally, if you wish to play around the SigmaStudio schematics that the ADCs / DACs
+ * are initialized with, you can use "live driver debug" mode.  In this mode,
+ * the converters are initialized using the exported init files in the same
+ * directory as the schematics.  When this mode is not being used, the init
+ * files are pulled from a directory with the simple drivers called
+ * "initialization_files".  To use live driver debug mode, define a pre-processor
+ * variable called __LIVE_DRIVER_DEBUG__.
+ */
+
 // SigmaStudio exported NumBytes file
 uint16_t ADAU1761_Config_NumBytes[] = {
 #if defined (__DIY_DAUGHTER_BOARD__) // SAM + DIY Daughter Board Drivers
@@ -28,9 +53,23 @@ uint16_t ADAU1761_Config_NumBytes[] = {
 
 #else	// SAM Drivers
 #if defined (__LIVE_DRIVER_DEBUG__)
-#include "..\..\SigmaStudio Schematics\Converter configurations\SAM Board Configurations\Default\Exported init files\NumBytes_ADAU1761.dat"
+
+#if defined (__ADSPSC589_SAM__)
+#include "..\..\SigmaStudio Schematics\Converter configurations\SAM Board Configurations\Default-Pulse_Framing\Exported init files\NumBytes_ADAU1761.dat"
 #else
-#include "..\initialization_files\NumBytes_ADAU1761_v1.0.dat"
+#include "..\..\SigmaStudio Schematics\Converter configurations\SAM Board Configurations\Default-I2S_Framing\Exported init files\NumBytes_ADAU1761.dat"
+#endif
+
+#else
+
+// For SHARC SigmaStudio, use the version of the driver that operates in TDM / Pulse mode
+#if defined (__ADSPSC589_SAM__)
+#include "..\initialization_files\NumBytes_ADAU1761_Pulse_Framing_v1.0.dat"
+#else
+// And for the Bare-metal frameworks, use 50% framing
+#include "..\initialization_files\NumBytes_ADAU1761_I2S_Framing_v1.0.dat"
+#endif
+
 #endif
 #endif
 };
@@ -47,9 +86,23 @@ uint8_t ADAU1761_Config_TxData[] = {
 
 #else // SAM Drivers
 #if defined (__LIVE_DRIVER_DEBUG__)
-#include "..\..\SigmaStudio Schematics\Converter configurations\SAM Board Configurations\Default\Exported init files\TxBuffer_ADAU1761.dat"
+
+#if defined (__ADSPSC589_SAM__)
+#include "..\..\SigmaStudio Schematics\Converter configurations\SAM Board Configurations\Default-Pulse_Framing\Exported init files\TxBuffer_ADAU1761.dat"
 #else
-#include "..\initialization_files\TxBuffer_ADAU1761_v1.0.dat"
+#include "..\..\SigmaStudio Schematics\Converter configurations\SAM Board Configurations\Default-I2S_Framing\Exported init files\TxBuffer_ADAU1761.dat"
+#endif
+
+#else
+
+// For SHARC SigmaStudio, use the version of the driver that operates in TDM / Pulse mode
+#if defined (__ADSPSC589_SAM__)
+#include "..\initialization_files\TxBuffer_ADAU1761_Pulse_Framing_v1.0.dat"
+#else
+// And for the Bare-metal frameworks, use 50% framing
+#include "..\initialization_files\TxBuffer_ADAU1761_I2S_Framing_v1.0.dat"
+#endif
+
 #endif
 #endif
 };

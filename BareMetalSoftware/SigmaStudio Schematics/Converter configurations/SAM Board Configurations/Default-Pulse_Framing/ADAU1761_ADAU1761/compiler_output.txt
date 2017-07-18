@@ -1,0 +1,71 @@
+Sigma Studio Version 3.14. Build 2, Rev 1681
+
+Analog Devices Compiler for the 3rd generation SigmaDSP core.
+Build date = 12/23/2016 at 5:05 AM
+
+## Summary ##
+(Note: Estimates are based on a 48 kHz sample rate)
+
+Instructions used:
+234	(out of a possible 1024 )
+Modulo Data RAM used (X Memory):
+64	(out of a possible 4096 )
+Non Modulo Data RAM used (X Memory):
+2	(out of a possible 4096 )
+Parameter RAM used (Y Memory):
+64	(out of a possible 1024 )
+
+Instance                      		Mips	Inst	Data	Coeff	Other
+                              			(max)
+Tone1                         		22	22	8	3
+Input1                        		20	20	10	0
+Beginning                     		19	19	0	1
+Level1                        		18	18	7	7
+SafeLoadCode                  		15	15	0	7
+Nx2-1                         		14	14	2	6
+SW vol 1_2                    		13	13	7	2
+SW vol 1                      		13	13	7	2
+Nx2-1_2                       		8	8	2	3
+Single 1                      		7	7	3	3
+End                           		5	5	0	0
+IN_CH0                        		4	4	1	2
+IN_CH6                        		4	4	1	2
+IN_CH2                        		4	4	1	2
+IN_CH4                        		4	4	1	2
+IN_CH1                        		4	4	1	2
+IN_CH3                        		4	4	1	2
+IN_CH7                        		4	4	1	2
+ADC_LEFT                      		4	4	1	2
+IN_CH5                        		4	4	1	2
+ADC_RIGHT                     		4	4	1	2
+Mute1_4                       		2	2	1	1
+Mute1_3                       		2	2	1	1
+Mute1_6                       		2	2	1	1
+Mute1_10                      		2	2	1	1
+DC1_2                         		2	2	1	1
+Mute1_9                       		2	2	1	1
+Mute1_7                       		2	2	1	1
+Mute1_5                       		2	2	1	1
+Mute1_8                       		2	2	1	1
+DC1                           		2	2	1	1
+TDM_CH7                       		2	2	0	0
+TDM_CH2                       		2	2	0	0
+TDM_CH5                       		2	2	0	0
+Output1                       		2	2	0	0
+TDM_CH1                       		2	2	0	0
+TDM_CH0                       		2	2	0	0
+TDM_CH6                       		2	2	0	0
+TDM_CH3                       		2	2	0	0
+TDM_CH4                       		2	2	0	0
+Output2                       		2	2	0	0
+
+Subroutines called:
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Total                      			234	234	66	64
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+(%)                          			23%	23%	2%	6%
+
+Files written:  
+program_data.dat - load file for downloading code using ADI loader
+hex_program_data.dat - load file for downloading code using microcontroller 
+ParamAddress.dat - Parameter RAM locations for schematic instances

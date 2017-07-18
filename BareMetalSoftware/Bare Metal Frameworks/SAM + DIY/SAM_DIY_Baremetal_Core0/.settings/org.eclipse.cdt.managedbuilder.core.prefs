@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+environment/buildEnvironmentInclude/arm.toolchain.bare.target.exe.debug.1455532627/CPATH/delimiter=;
+environment/buildEnvironmentInclude/arm.toolchain.bare.target.exe.debug.1455532627/CPATH/operation=remove
+environment/buildEnvironmentInclude/arm.toolchain.bare.target.exe.debug.1455532627/CPLUS_INCLUDE_PATH/delimiter=;
+environment/buildEnvironmentInclude/arm.toolchain.bare.target.exe.debug.1455532627/CPLUS_INCLUDE_PATH/operation=remove
+environment/buildEnvironmentInclude/arm.toolchain.bare.target.exe.debug.1455532627/C_INCLUDE_PATH/delimiter=;
+environment/buildEnvironmentInclude/arm.toolchain.bare.target.exe.debug.1455532627/C_INCLUDE_PATH/operation=remove
+environment/buildEnvironmentInclude/arm.toolchain.bare.target.exe.debug.1455532627/append=true
+environment/buildEnvironmentInclude/arm.toolchain.bare.target.exe.debug.1455532627/appendContributed=true
+environment/buildEnvironmentLibrary/arm.toolchain.bare.target.exe.debug.1455532627/LIBRARY_PATH/delimiter=;
+environment/buildEnvironmentLibrary/arm.toolchain.bare.target.exe.debug.1455532627/LIBRARY_PATH/operation=remove
+environment/buildEnvironmentLibrary/arm.toolchain.bare.target.exe.debug.1455532627/append=true
+environment/buildEnvironmentLibrary/arm.toolchain.bare.target.exe.debug.1455532627/appendContributed=true

@@ -1,0 +1,67 @@
+
+ CrossCore® Embedded Studio v2.5.0
+ C/C++ Compiler : SHARC version 8.9.0.0 (Dec  1 2016 11:25:37)
+  Copyright (c) 1997-2016 Analog Devices, Inc.
+  Copyright (c) 1998-2014 Edison Design Group, Inc.
+  Copyright (c) 1997-1999 Edinburgh Portable Compilers, Ltd.
+
+ Compilation status of the source files:
+	IC 2_Automotive SS Dual Core Processing Path\Framework.c .... : Successful!
+	IC 2_Automotive SS Dual Core Processing Path\SSn.asm .... : Successful!
+	IC 2_Automotive SS Dual Core Processing Path\FrameworkUtils.c .... : Successful!
+	IC 2_Automotive SS Dual Core Processing Path\CModulesIntern.c .... : Successful!
+	IC 2_Automotive SS Dual Core Processing Path\Param.c .... : Successful!
+	IC 2_Automotive SS Dual Core Processing Path\SubProcessS1.c .... : Successful!
+
+ Schematic DXE successfully generated!
+ Application DXE used: C:\Users\Dan\Dropbox\Projects\ADI002 - SS Frameworks\Software\New Frameworks\Testing\SAM Bootloader Testing\4-SAM Automotive SS\SS_DXEs\SS_App_SAM_Automotive_Core2.dxe
+
+ Memory usage of the modules in the schematic:
+
+ Instance 			Code	Coeff	Data32	Data48	Data32B	Data32C	CodeB 
+			(bytes) 	(bytes) 	(bytes) 	(bytes) 	(bytes) 	(bytes) 	(bytes)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+ Tone2                         	NA	12	8	0	0	0	NA
+ Tone3                         	NA	12	8	0	0	0	NA
+ Signal I/P1                   	NA	0	0	0	0	0	NA
+ DC1                           	NA	4	0	0	0	0	NA
+ DC1_2                         	NA	4	0	0	0	0	NA
+ MX1                           	NA	0	0	0	0	0	NA
+ MX1_2                         	NA	0	0	0	0	0	NA
+ Single 1_2                    	NA	4	0	0	0	0	NA
+ Single 1_2                    	NA	4	0	0	0	0	NA
+ Single 1                      	NA	4	0	0	0	0	NA
+ Single 1                      	NA	4	0	0	0	0	NA
+ Output7                       	NA	0	0	0	0	0	NA
+ Output8                       	NA	0	0	0	0	0	NA
+ Output3                       	NA	0	0	0	0	0	NA
+ Output4                       	NA	0	0	0	0	0	NA
+ Framework                    	NA	108	1408	0	0	0	NA
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+ Total			7158	156	1424	0	0	0	0
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ MEMORY ALLOCATION
+
+ Buffer		Address		Size (bytes)
+ -------------------------------------------------------------------------------
+
+ FW Buffer 0	0x2C1424   	3384
+ FW Buffer 1	0x300000   	0
+ FW Buffer 2	0x200A0004   	0
+
+ SS Buffer 0	0x200A0004   	1024
+ SS Buffer 1	0x2492F4   	7190
+ SS Buffer 2	0x200A0404   	1024
+ SS Buffer 3	0x200A0804   	4096
+ SS Buffer 4	0x2C215C   	1488
+ SS Buffer 5	0x300000   	732
+ SS Buffer 6	0x38D020   	96
+ SS Buffer 7	0xC0A00000   	32
+ SS Buffer 8	0x38D080   	64
+ SS Buffer 9	0xC0600034   	64
+ SS Buffer 10	0x200A1804   	64
+
+ SSn ID: 0 (override)
+

@@ -1,0 +1,421 @@
+Cell Name         = Tone1
+Parameter Name    = sin_lookupAlg19401mask
+Parameter Address = 8
+Parameter Value   = 255
+Parameter Data :
+0x00, 0x00, 0x00, 0xFF, 
+
+
+
+Cell Name         = Tone1
+Parameter Name    = sin_lookupAlg19401increment
+Parameter Address = 9
+Parameter Value   = 0.00833332538604736
+Parameter Data :
+0x00, 0x01, 0x11, 0x11, 
+
+
+
+Cell Name         = Tone1
+Parameter Name    = sin_lookupAlg19401ison
+Parameter Address = 10
+Parameter Value   = 1
+Parameter Data :
+0x00, 0x80, 0x00, 0x00, 
+
+
+
+Cell Name         = Single 1
+Parameter Name    = GainS200Alg1gain_target
+Parameter Address = 13
+Parameter Value   = 1
+Parameter Data :
+0x00, 0x80, 0x00, 0x00, 
+
+
+
+Cell Name         = Single 1
+Parameter Name    = GainS200Alg1alpha
+Parameter Address = 8190
+Parameter Data :
+0x00, 0x7F, 0xF2, 0x59, 
+0x00, 0x00, 0x0D, 0xA7, 
+
+
+
+Cell Name         = Level1
+Parameter Name    = SingleBandLevelDetwOutDisp3rdgen1TCONST
+Parameter Address = 16
+Parameter Value   = 0.00240135192871094
+Parameter Data :
+0x00 ,	0x00 ,	0x4E ,	0xB0 ,	
+
+
+
+Cell Name         = Level1
+Parameter Name    = SingleBandLevelDetwOutDisp3rdgen1hold
+Parameter Address = 17
+Parameter Value   = 480
+Parameter Data :
+0x00 ,	0x00 ,	0x01 ,	0xE0 ,	
+
+
+
+Cell Name         = Level1
+Parameter Name    = SingleBandLevelDetwOutDisp3rdgen1decay
+Parameter Address = 18
+Parameter Value   = 0.000216960906982422
+Parameter Data :
+0x00 ,	0x00 ,	0x07 ,	0x1C ,	
+
+
+
+Cell Name         = Nx2-1
+Parameter Name    = stereomux1940ns10
+Parameter Address = 48
+Parameter Value   = 0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = Nx2-1
+Parameter Name    = stereomux1940ns11
+Parameter Address = 49
+Parameter Value   = 1
+Parameter Data :
+0x00, 0x80, 0x00, 0x00, 
+
+
+
+Cell Name         = Nx2-1
+Parameter Name    = stereomux1940ns12
+Parameter Address = 50
+Parameter Value   = 0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = Nx2-1
+Parameter Name    = stereomux1940ns13
+Parameter Address = 51
+Parameter Value   = 0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = Nx2-1
+Parameter Name    = stereomux1940ns14
+Parameter Address = 52
+Parameter Value   = 0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = Nx2-1
+Parameter Name    = stereomux1940ns15
+Parameter Address = 53
+Parameter Value   = 0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = SW vol 1
+Parameter Name    = SWGain1940DBAlg1target
+Parameter Address = 60
+Parameter Value   = 1
+Parameter Data :
+0x00 ,	0x80 ,	0x00 ,	0x00 ,	
+
+
+
+Cell Name         = SW vol 1
+Parameter Name    = SWGain1940DBAlg1step
+Parameter Address = 61
+Parameter Value   = 0.000244140625
+Parameter Data :
+0x00 ,	0x00 ,	0x08 ,	0x00 ,	
+
+
+
+Cell Name         = Nx2-1_2
+Parameter Name    = stereomux1940ns20
+Parameter Address = 45
+Parameter Value   = 0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = Nx2-1_2
+Parameter Name    = stereomux1940ns21
+Parameter Address = 46
+Parameter Value   = 1
+Parameter Data :
+0x00, 0x80, 0x00, 0x00, 
+
+
+
+Cell Name         = Nx2-1_2
+Parameter Name    = stereomux1940ns22
+Parameter Address = 47
+Parameter Value   = 0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = SW vol 1_2
+Parameter Name    = SWGain1940DBAlg2target
+Parameter Address = 23
+Parameter Value   = 1
+Parameter Data :
+0x00 ,	0x80 ,	0x00 ,	0x00 ,	
+
+
+
+Cell Name         = SW vol 1_2
+Parameter Name    = SWGain1940DBAlg2step
+Parameter Address = 24
+Parameter Value   = 0.000244140625
+Parameter Data :
+0x00 ,	0x00 ,	0x08 ,	0x00 ,	
+
+
+
+Cell Name         = Mute1_3
+Parameter Name    = MuteNoSlewAlg3mute
+Parameter Address = 54
+Parameter Value   = 0
+Parameter Data :
+0x00 ,	0x00 ,	0x00 ,	0x00 ,	
+
+
+
+Cell Name         = Mute1_4
+Parameter Name    = MuteNoSlewAlg4mute
+Parameter Address = 55
+Parameter Value   = 0
+Parameter Data :
+0x00 ,	0x00 ,	0x00 ,	0x00 ,	
+
+
+
+Cell Name         = Mute1_5
+Parameter Name    = MuteNoSlewAlg5mute
+Parameter Address = 56
+Parameter Value   = 0
+Parameter Data :
+0x00 ,	0x00 ,	0x00 ,	0x00 ,	
+
+
+
+Cell Name         = Mute1_6
+Parameter Name    = MuteNoSlewAlg6mute
+Parameter Address = 57
+Parameter Value   = 0
+Parameter Data :
+0x00 ,	0x00 ,	0x00 ,	0x00 ,	
+
+
+
+Cell Name         = Mute1_7
+Parameter Name    = MuteNoSlewAlg7mute
+Parameter Address = 58
+Parameter Value   = 1
+Parameter Data :
+0x00 ,	0x80 ,	0x00 ,	0x00 ,	
+
+
+
+Cell Name         = Mute1_8
+Parameter Name    = MuteNoSlewAlg8mute
+Parameter Address = 59
+Parameter Value   = 1
+Parameter Data :
+0x00 ,	0x80 ,	0x00 ,	0x00 ,	
+
+
+
+Cell Name         = Mute1_9
+Parameter Name    = MuteNoSlewAlg9mute
+Parameter Address = 62
+Parameter Value   = 1
+Parameter Data :
+0x00 ,	0x80 ,	0x00 ,	0x00 ,	
+
+
+
+Cell Name         = Mute1_10
+Parameter Name    = MuteNoSlewAlg10mute
+Parameter Address = 63
+Parameter Value   = 1
+Parameter Data :
+0x00 ,	0x80 ,	0x00 ,	0x00 ,	
+
+
+
+Cell Name         = DC1
+Parameter Name    = DCInpAlg1
+Parameter Address = 11
+Parameter Value   = -0.6875
+Parameter Data :
+0x0F, 0xA8, 0x00, 0x00, 
+
+
+
+Cell Name         = DC1_2
+Parameter Name    = DCInpAlg2
+Parameter Address = 12
+Parameter Value   = 0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = None - Framework
+Parameter Name    = NonModRamAlloc
+Parameter Address = 0
+Parameter Value   = 4094
+Parameter Data :
+0x00, 0x00, 0x0F, 0xFE, 
+
+
+
+Parameter data for: ADAU1761 (Hexadecimal format starting at parameter address 0)
+See also ADAU1761_I2S_TDM.hex file
+0x00 , 	0x00 , 	0x0F , 	0xFE , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0xFF , 	
+0x00 , 	0x01 , 	0x11 , 	0x11 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x0F , 	0xA8 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x4E , 	0xB0 , 	
+0x00 , 	0x00 , 	0x01 , 	0xE0 , 	
+0x00 , 	0x00 , 	0x07 , 	0x1C , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x08 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x08 , 	0x00 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+
+Parameter data for: ADAU1761 (Binary format starting at parameter address 0)
+00000000	00000000	00001111	11111110	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	11111111	
+00000000	00000001	00010001	00010001	
+00000000	10000000	00000000	00000000	
+00001111	10101000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	10000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	01001110	10110000	
+00000000	00000000	00000001	11100000	
+00000000	00000000	00000111	00011100	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	10000000	00000000	00000000	
+00000000	00000000	00001000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	10000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	10000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	10000000	00000000	00000000	
+00000000	10000000	00000000	00000000	
+00000000	10000000	00000000	00000000	
+00000000	00000000	00001000	00000000	
+00000000	10000000	00000000	00000000	
+00000000	10000000	00000000	00000000	
+
