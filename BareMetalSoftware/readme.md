@@ -120,10 +120,10 @@ void processAudio(void) {
 setup() {
   // set up the interrupt and set processAudio as callback
   adi_int_InstallHandler( INTR_SOFT7,
-							(ADI_INT_HANDLER_PTR) processAudio,
-							NULL,
-							true);
-
+				(ADI_INT_HANDLER_PTR) processAudio,
+				NULL,
+				true);
+}
 ```
 
 That's it!
