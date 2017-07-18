@@ -34,6 +34,14 @@ The audio flows through the cores in a pipelined manner as such:
 
 When SHARC Core 1 is processing the current frame of audio, SHARC Core 2 is processing the previous frame.  This way, both cores can be fully utilized.
 
+PB1 toggles the LED display between two presets:
+  * "Core Alive" mode - each LED is strobed bit a core indicating that the core is operational.  For the SHARC cores, the LED strobes after every 128 blocks of audio are processed thus they indicate not only that the core is running but also that audio is flowing.
+  * "VU meter" mode - LEDs are used as a VU meter indicating audio levels.
+
+PB2 enables / disables a very simple reverb effect on the audio stream.  Core 2 performs the reverb.
+
+If you halt core 2, you can see a real-time FFT by plotting the variables `fft_output_mag_log` (Db) or  `fft_output_mag` (linear).  The FFT size is 4096 points.  Plotting the first 512 points will provide a good represenation of the audible spectrum.
+
 Below is a set of approaches that are used within the bare metal frameworks
 
 ### DMA-Based Audio I/O Framework ###
